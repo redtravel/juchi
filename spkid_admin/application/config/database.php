@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '127.0.0.1';
-$db['default']['username'] = 'lichao';
-$db['default']['password'] = '123456a';
-$db['default']['database'] = 'mars';
+$db['default']['hostname'] = '115.29.34.60';
+$db['default']['username'] = 'db_admin';
+$db['default']['password'] = '123456';
+$db['default']['database'] = 'juchi';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = 'ty_';
 $db['default']['pconnect'] = TRUE;
@@ -64,10 +64,10 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-$db['default_r']['hostname'] = '127.0.0.1';
-$db['default_r']['username'] = 'lichao';
-$db['default_r']['password'] = '123456a';
-$db['default_r']['database'] = 'mars';
+$db['default_r']['hostname'] = '115.29.34.60';
+$db['default_r']['username'] = 'db_admin';
+$db['default_r']['password'] = '123456';
+$db['default_r']['database'] = 'juchi';
 $db['default_r']['dbdriver'] = 'mysqli';
 $db['default_r']['dbprefix'] = 'ty_';
 $db['default_r']['pconnect'] = TRUE;
@@ -79,22 +79,6 @@ $db['default_r']['dbcollat'] = 'utf8_general_ci';
 $db['default_r']['swap_pre'] = '';
 $db['default_r']['autoinit'] = TRUE;
 $db['default_r']['stricton'] = FALSE;
-
-$db['wordpress']['hostname'] = '127.0.0.1';
-$db['wordpress']['username'] = 'lichao';
-$db['wordpress']['password'] = '123456a';
-$db['wordpress']['database'] = 'wordpress';
-$db['wordpress']['dbdriver'] = 'mysqli';
-$db['wordpress']['dbprefix'] = 'wp_';
-$db['wordpress']['pconnect'] = TRUE;
-$db['wordpress']['db_debug'] = TRUE;
-$db['wordpress']['cache_on'] = FALSE;
-$db['wordpress']['cachedir'] = '';
-$db['wordpress']['char_set'] = 'utf8';
-$db['wordpress']['dbcollat'] = 'utf8_general_ci';
-$db['wordpress']['swap_pre'] = '';
-$db['wordpress']['autoinit'] = TRUE;
-$db['wordpress']['stricton'] = FALSE;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */

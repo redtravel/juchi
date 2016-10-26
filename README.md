@@ -9,9 +9,15 @@ juchi现有网址: http://54yayi.com 分为三个子模块 :
 下面是取缔的方案:
 
 ## 三部分
-- 论坛: phpwind/discuz + 某种模板PC/H5
-- 课程: spkid ERP/PC/h5
-- 求职: spkid ERP/PC/h5；分企业和个人
+- 论坛: phpwind/discuz + 某种模板PC/H5。线上地址是：http://sq.goodteeth.cn
+- 课程: spkid ERP/PC/h5。线上地址是：http://px.goodteeth.cn
+- 求职: spkid ERP/PC/h5；分企业和个人。线上地址是：http://qz.goodteeth.cn
+- ERP后台：账号密码：admini/123456。线上地址是：http://erp.goodteeth.cn
+
+MYSQL线上DB是
+- ip: 115.29.34.60
+- user: db_admin
+- pwd: 123456
 
 注:
 - 会员统一,统一注册,登录

@@ -9,7 +9,7 @@ juchi现有网址: http://54yayi.com 分为三个子模块 :
 下面是取缔的方案:
 
 ## 三部分
-- 论坛: discuz + 某种模板PC/H5
+- 论坛: phpwind/discuz + 某种模板PC/H5
 - 课程: spkid ERP/PC/h5
 - 求职: spkid ERP/PC/h5；分企业和个人
 
@@ -17,6 +17,8 @@ juchi现有网址: http://54yayi.com 分为三个子模块 :
 - 会员统一,统一注册,登录
 - 1个会员中心:个人中心,论坛,课程,招聘
 - 后台两个: spkid ERP, discuz后台 
+
+
 
 anything by Q
 QQ:55729226

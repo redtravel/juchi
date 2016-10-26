@@ -1,0 +1,76 @@
+/* = HTML Elements Default Properties
+--------------------------------------------------------------------------------------------*/
+input.radioType { margin: -2px 0 0 -3px; }
+
+/* = Sign In
+--------------------------------------------------------------------------------------------*/
+/* [[ Sign In Content ]] */
+#signInContent div.authorize div.signIn dl { margin-bottom: 8px; }
+
+/* = Button
+--------------------------------------------------------------------------------------------*/
+/* [[ Button Style ]] */
+/* other */
+span.other { line-height: 19px !important; }
+span.other a:link,
+span.other a:visited,
+span.other a:hover,
+span.other a:active { line-height: 19px !important; }
+
+/* = Narrow your Results
+--------------------------------------------------------------------------------------------*/
+/* [[ Category ]] */
+div.category div.classified a.cancel { top: 5px!important; right: 57px !important; }
+
+/* [[ Best Goods ]] */
+div.bestGoods div.bestseller ul li a span { margin-top: 4px; line-height: 15px; }
+div.bestGoods div.hotDeal { z-index: -1; }
+
+/* = Button
+--------------------------------------------------------------------------------------------*/
+/* [[ Button Disposition ]] */
+/* order line */
+div.orderLine ul li.half { width: 170px !important; }
+
+/* = List Type
+--------------------------------------------------------------------------------------------*/
+table.goodsList tbody tr td.checking a:link,
+table.goodsList tbody tr td.checking a:visited,
+table.goodsList tbody tr td.checking a:hover,
+table.goodsList tbody tr td.checking a:active { margin: 1px 0 0 8px !important; }
+table.goodsList tbody tr td.checking input.radioType { margin-left: 4px; }
+
+/* = Gallery Type
+--------------------------------------------------------------------------------------------*/
+#galleryType dl dt span a { margin: 0 !important; }
+#galleryType dl dd ul li { line-height: 14px !important; }
+
+/* = Search Result
+--------------------------------------------------------------------------------------------*/
+/* [[ Filter ]] */
+div.searchResult div.filterList ul li label { width: 65px !important; margin-top: 4px !important; }
+
+/* = Paging Information
+--------------------------------------------------------------------------------------------*/
+div.pagingInfo div.center a.first:link,
+div.pagingInfo div.center a.first:visited,
+div.pagingInfo div.center a.first:hover,
+div.pagingInfo div.center a.first:active,
+div.pagingInfo div.center a.prev:link,
+div.pagingInfo div.center a.prev:visited,
+div.pagingInfo div.center a.prev:hover,
+div.pagingInfo div.center a.prev:active,
+div.pagingInfo div.center a.next:link,
+div.pagingInfo div.center a.next:visited,
+div.pagingInfo div.center a.next:hover,
+div.pagingInfo div.center a.next:active,
+div.pagingInfo div.center a.last:link,
+div.pagingInfo div.center a.last:visited,
+div.pagingInfo div.center a.last:hover,
+div.pagingInfo div.center a.last:active { text-indent: 0 !important; }
+
+span.button a img { padding-top:3px !important; }
+
+.memberAgree input { margin:-2px 8px 0 0; }
+
+div.gnb dl dd { padding-top:14px !important; padding-bottom:7px;}

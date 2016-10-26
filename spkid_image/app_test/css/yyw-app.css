@@ -1,0 +1,198 @@
+/* Tab bar icons */
+.toolbar-inner { background-color:#ea9b56;}
+
+a.tab-link { background-color:#ea9b56; width:25%; display:block; border-right:#f0aa6d solid 1px; }
+
+a.active { background-color:#efb17b; width:25%; display:block; border-right:#f0aa6d solid 1px;}
+
+i.tabbar-demo-icon-1 {
+  width: 28px;
+  height: 28px;
+  background-size:auto 100%;
+  background-image: url(../img/m1.svg);
+}
+
+i.tabbar-demo-icon-2 {
+  width: 28px;
+  height: 28px;
+  background-size:auto 100%;
+  background-image: url(../img/m2.svg);
+}
+
+i.tabbar-demo-icon-3 {
+  width: 41.44px;
+  height: 28px;
+  background-size:auto 100%;
+  background-image: url(../img/m3.svg);
+}
+
+i.tabbar-demo-icon-4 {
+  width: 28px;
+  height: 28px;
+  background-size:auto 100%;
+  background-image: url(../img/m4.svg);
+}
+
+.tabbar-label { color:#fff;}
+
+.mainpage { width:100%; height:100%; display: block; background-color: #a6dfeb; background-image:url(../img/bg_blue.jpg); 
+			background-repeat:repeat-x; font-size:16px; overflow: hidden; clear:both; min-height:1200px;}
+			
+.zone { widows:100%; overflow: hidden; clear:both; display: block; }
+
+.zone .tb_button { display:block; background-color:#efb17b; width:47.75%; height:auto; margin:5px 0px 1px 1.5%; float:left; color:#fff;
+			border-radius:0.4em; overflow:hidden; border-bottom:#999 solid 1px; font-size:0.9em; text-align:center; padding:0.4em 0;
+			background-image:url(../img/arrow01.png); background-repeat:no-repeat; background-position:right; background-size:auto 70%; }
+
+.brandlist { widows:100%; overflow: hidden; clear:both; display: block; }
+
+.brandlist .brand { display:block; background-color:#fff; width:23.125%; height:auto; margin:2px 0px 2px 1.5%; float:left;
+			border-radius:0.4em; overflow:hidden; border-bottom:#999 solid 0px;}
+			
+.brandlist .brand img { border-radius: 5px; width:100%; display:block; }
+
+.prod_sbox { display:block; background-color:#fff; width:47.75%; height:auto; margin:5px 0px 5px 1.5%; float:left;
+			border-radius:0.4em; overflow:hidden; padding-bottom:10px; border-bottom:#ccc solid 2px;}
+
+.prod_sbox>sbox { position:absolute; width:47%; display:block; border-radius: 1.2vw;  
+					overflow:hidden; clear:both; background-color:#fff; }
+.prod_sbox .sbox .img_sbox img { width:100%; display:block;}
+.prod_sbox .sbox .img_sbox { width:100%; display:block;}
+
+.mark { display:block; top:0; left:0; font-size:0.85em; background-size:auto 100%;
+				background-repeat:no-repeat; line-height:1.9em; padding-left:0.6em; height:2.5em; 
+				font-weight:0; color:#fff; position: relative; }
+
+.mark_sale { background-image:url(../img/promo_salemark.png); }
+.mark_show { background-image:url(../img/promo_showmark.png); }
+.mark_edu { background-image:url(../img/promo_edumark.png); }
+			
+.prod_sbox .sbox .prod_name { display:block; color:#666; font-size:0.8em; line-height:1.4em; text-align: center; padding:4px 4%; 
+ 				width:92%; height:2.9em; overflow:hidden; }
+
+.bline .price_bar .ask_price { display:block; width:4em; height:1.4em; background-color:#F93; color:#fff; 
+				text-align:center; border-radius:0.7em; line-height: 1.4em; }
+.bline .price_bar .ask_price:after { font-size:0.9em; content:'询价'; }
+
+.bline .price_bar .prod_pprice { font-size:1.4em; color:#F93; line-height:1.0em;}
+.bline .price_bar .prod_pprice:before { font-size:0.6em; content:'￥'; }
+
+.bline .price_bar { font-family: "Myriad Pro", Helvetica, Arial; text-align:right; float:right; 
+								margin-right:4%; line-height: 1.4em; display:block; width:auto; }
+
+.bline .favoheart { background-image:url(../img/eye01.png); background-size:auto 100%; 
+				background-repeat:no-repeat; height:auto; display:block; line-height:1.4em; 
+				 font-size:0.9em; color:#bbb; padding-left:1.6em; font-family:Verdana, sans-serif;
+				 margin-left:4%; text-align:left; width:auto; float:left; }	
+ 			
+.prod_sbox .sbox .bline { width:100%; margin-top:0.8em; height:1.4em; display:block; overflow:hidden; }			
+
+.swiper-slide { width:100%; border-radius:0.4em; }
+.swiper-slide>a>img { width:100%; border-radius:0.4em; }
+.swiper-box { width:97%; height:100%; margin:8px 1.5% 0 1.5%; overflow: hidden; clear:both; display: block; border-radius:0.4em;}
+
+.c_name { color:#fff; }
+.navbar { background:#0d7aa5;}
+
+i.icon.searchico { width:24px; height:24px; background-image:url(../svg_icons/search.svg)}
+i.icon.cartico { width:24px; height:24px; background-image:url(../svg_icons/cart.svg)}
+i.icon.csearchico { width:24px; height:24px; background-image:url(../svg_icons/more.svg)}
+i.icon.backico { width:20px; height:20px; background-image:url(../svg_icons/back.svg)}
+
+.listb li { list-style:none; } 
+.listb ul { margin:0; padding:0;}
+.listb02 li { list-style:none; } 
+.listb02 ul { margin:0; padding:0;}
+
+.infinite-scroll-preloader {
+  margin-top:0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.infinite-scroll-preloader .preloader {
+  width:34px;
+  height:34px;
+}     
+
+
+.edupage { width:100%; height:auto; display: block; background-color: #a6dfeb; background-image:url(../img/bg_blue.jpg); 
+			background-repeat:repeat-x; font-size:16px; overflow: hidden; clear:both; min-height:1200px; }
+.edu-box2 { width:96%; height:auto; margin:8px 2% 0 2%; overflow: hidden; clear:both; display: block; border-radius:0.6em; 
+			background-color:#fff; border-bottom:#999 solid 2px;}
+			
+.markadd { display:block; top:0; left:0; font-size:0.9em; background-size:auto 100%;
+				background-repeat:no-repeat; line-height:1.4em; padding-left:0.5em; height:2em; 
+				font-weight:0; color:#fff; position: relative; }
+				
+.l-box2 .t-photo2 { width:90%; margin:0 auto; display:block; overflow:hidden; 
+				border:#fff solid 0.4em; border-radius:0;}
+.l-box2 .t-photo2>img { width:100%; display:block; }
+
+.l-box2 { width:100%; display:block; text-align:center; }
+
+.edu-box1 { width:91%; height:auto; margin:8px 2% 0 2%; overflow: hidden; display: block; border-radius:0.6em; 
+			background-color:#fff; border-bottom:#999 solid 2px; padding:2% 2.5%;}
+.bgc { background-color: #ffc;}
+
+.l-box1 { width:100%; display:block; overflow:hidden; clear:both; }
+.l-box1 .t-photo1 { width:29%; overflow:hidden; display:block; float:left; border:#ddd solid 1px;}
+.l-box1 .t-photo1>img { width:100%; display:block; }
+.l-infobox { display: block; overflow:hidden; padding-left:2%; width:68%; float:left; }
+
+.t-name1 { font-size:0.7em; color:#999; line-height:1em;}
+.l-item1 { font-size:0.8em; color:#666; line-height:1.5em;}
+.l-time1 { font-size:0.7em; color:#06C; line-height:1em;}
+.l-sale1 { font-size:0.8em; color:#ea9b56; line-height:1em;}
+
+.t-name2 { font-size:0.8em; color:#999; line-height:2em;}
+.l-item2 { font-size:0.9em; color:#666; line-height:2em;}
+.l-time2 { font-size:0.8em; color:#06C; line-height:1em;}
+.l-sale2 { font-size:0.9em; color:#ea9b56; line-height:1.5em;}
+
+.status-line1 { width:100%; margin-top:0.8em; height:2em; display:block; overflow:hidden; clear:both; }	
+.status-line1 .attention { background-image:url(../img/eye01.png); background-size:auto 100%; 
+				background-repeat:no-repeat; height:auto; display:block; line-height:1.4em; 
+				 font-size:0.9em; color:#bbb; padding-left:1.6em; font-family:Verdana, sans-serif;
+				 margin-left:4%; text-align:left; width:auto; float:left; }	
+
+.status-line1 .signin_num { display:block; line-height:1.4em; 
+				 font-size:0.9em; color:#999; padding-left:1.6em; 
+				 text-align:left; width:auto; float:left; }	
+ 			
+.status-line1 .signin_bar { text-align:right; float:right; 
+						margin-right:4%; line-height: 1.4em; display:block; width:auto; }
+
+.status-line1 .signin { display:block; width:4em; height:1.4em; background-color:#F93; color:#fff; 
+				text-align:center; border-radius:0.7em; line-height: 1.4em; }
+.status-line1 .signin:after { font-size:0.9em; content:'报名'; }
+
+.status-line2 { width:100%; margin-top:0.7em; display:block; overflow:hidden; clear:both; }	
+.status-line2 .attention { background-image:url(../img/eye01.png); background-size:auto 100%; 
+				background-repeat:no-repeat; height:auto; display:block; line-height:1.2em; 
+				 font-size:0.8em; color:#bbb; padding-left:1.4em; font-family:Verdana, sans-serif;
+				 text-align:left; width:auto; float:left; }	
+
+.status-line2 .signin_num { display:block; line-height:1.2em; 
+				 font-size:0.8em; color:#999; padding-left:1.6em; 
+				 text-align:left; width:auto; float:left; }	
+ 			
+.status-line2 .signin_bar { text-align:right; float:right; line-height: 1.2em; display:block; width:auto; }
+
+.status-line2 .signin { display:block; width:4em; height:1.2em; background-color:#F93; color:#fff; 
+				text-align:center; border-radius:0.7em; line-height: 1.2em; }
+.status-line2 .signin:after { font-size:0.8em; content:'报名'; }
+
+
+.edu_focuspic>img { width:100%; border-radius:0.4em; display:block; }
+.edu_focuspic { width:96%; height:100%; margin:8px 2% 0 2%; overflow: hidden; clear:both; display: block; border-radius:0.6em; }
+
+.icon-list1 { width: 24px; height: 24px; background-image: url(../svg_icons/listb.svg);}
+.icon-list2 { width: 24px; height: 24px; background-image: url(../svg_icons/lista.svg);}
+
+
+
+
+
+
+

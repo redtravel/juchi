@@ -1,0 +1,14 @@
+11 * * * * php /alidata/www/spkid/spkid_admin/index.php cron show_index_goods
+49 */3 * * * php /alidata/www/spkid/spkid_admin/index.php cron write_hours_ps
+3 * * * * php /alidata/www/spkid/spkid_admin/index.php cron write_hour_pv
+# 自动客审
+* * * * * php /alidata/www/spkid/spkid_admin/index.php order_cron confirm
+## 快递公司分配
+* * * * * php /alidata/www/spkid/spkid_admin/index.php order_cron express
+# check img gallery's thumbs existence
+44 * * * * php /alidata/www/spkid/spkid_admin/index.php batch_img cron_for_check_img
+#订单自动24小时未客审，未付款后会自动作废
+33 * * * * php /alidata/www/spkid/spkid_admin/index.php cron order_invalid
+# 将词库的变更转到文件
+*/5 * * * * php /alidata/www/spkid/spkid_admin/index.php cron mkdict
+0,30 8-20 * * * php /alidata/www/spkid/spkid_admin/index.php cron db_order_filter

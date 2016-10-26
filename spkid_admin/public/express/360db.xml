@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<express size="300">
+    <senderNo x="32" y="80"></senderNo>
+    <cardNo x="300" y="113"></cardNo>
+    <monthCard x="394" y="103"></monthCard>
+    <addressNo x="389" y="47"></addressNo>
+    <siteName x="25" y="62" wrapLength="18">上海欧思蔚奥医疗器材有限公司</siteName>
+	<companyPhone x="25" y="84">400-9905-920</companyPhone>
+    <companyAddress x="25" y="103" width="300" wrapLength="18" indent="18">上海市 浦东新区 周浦镇 建韵路618号3幢楼305室</companyAddress>	
+    <orderSn x="45" y="17"/>
+    <orderCell x="100" y="30"/>
+    <reMark x="390" y="180" wrapLength="7" noIndent="true">支持开包验货 请先验货后签收</reMark>
+<saddress x="385" y="40">上海</saddress>
+<isCod ifEqual="1">
+    <right x="500" y="20">√</right>		
+</isCod>
+<isCod ifEqual="1">
+		<right x="460" y="68">√</right>
+		
+	</isCod>
+		
+    <account x="60" y="135">400811108</account>
+    <rcvPerson x="145" y="153"/>
+    <rcvAddress x="20" y="194" append="bestTime" wrapLength="21" indent="18"/>
+	<rcvMobile x="140" y="173"/>
+    <category x="50" y="250">牙科器材</category>
+    <goodsnums x="200" y="245">1</goodsnums>
+    <sender x="420" y="167">演示站</sender>
+    <pdate x="415" y="218"/>
+    <weight x="450" y="105"/>
+</express>
+<!-- 
+ * 一级元素支持：
+ *  1. append 属性:text的内容=内容+其对应的值
+ *  2. ifEqual 属性值为1时，其下的属性才显示
+ *  3. wrapLength 属性是字符换行长度
+-->

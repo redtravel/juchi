@@ -1,0 +1,54 @@
+<div class="iContainFocusBox">       
+    <div class="iContainFocusImg" >
+        <ul id="FocusImgLi">
+        </ul>
+    </div>
+    <div class="iContainFocusDot"></div>
+    <div id="dotGroup">
+    </div>
+</div>
+<script>
+$(function(){
+    var lunbo=[];
+        lunbo.push({start_time:'2015-12-16 15:55:47',end_time:'2016-12-31 09:00:00',img_url:'front_focus_image/2015/d4c939b5b92e775b0c2018a82768251e.jpg',link_url:'http://m.yueyawang.com/searchResult?kw=%E9%81%93%E9%82%A6&ids=216,221,222,4306'});
+        lunbo.push({start_time:'2015-12-15 11:46:56',end_time:'2016-12-31 11:46:59',img_url:'front_focus_image/2015/840989f466c761ab1be909d534285e95.jpg',link_url:'http://m.yueyawang.com/product-436.html?is_preview=1'});
+        lunbo.push({start_time:'2015-12-15 16:56:56',end_time:'2016-12-31 14:40:00',img_url:'front_focus_image/2015/801453eaf9ee829b95ce8046c132b421.jpg',link_url:'http://m.yueyawang.com/searchResult?kw=machwell'});
+        var curTime=CurentTime();
+    var li="";
+    var span="";
+    var lunbo_index=0;
+    for(var i=0;i<lunbo.length;i++){
+        if(lunbo[i].start_time<curTime&&lunbo[i].end_time>curTime){
+            li+="<li>";
+            li+="<a id='iImg"+(i+1)+"' href='"+lunbo[i].link_url+"' target='_blank' title=''>";
+            li+="<img "+(lunbo_index==0?"src":"psrc")+"='http://img.yueyawang.com/"+lunbo[i].img_url+"' alt='' /></a>";
+            li+="</li>";
+            span+="<span id='dot"+(i+1)+"' "+(i==0?"class='dotActive'":"")+">"+(i+1)+"</span>";
+            lunbo_index++;
+        }
+    }
+    $("#FocusImgLi").append(li);
+    $("#dotGroup").append(span);
+    function CurentTime(){
+          var now = new Date();
+          var year = now.getFullYear();       //年
+          var month = now.getMonth() + 1;     //月
+          var day = now.getDate();            //日
+          var hh = now.getHours();            //时
+          var mm = now.getMinutes();          //分
+          var clock = year + "-";
+          if(month < 10)
+             clock += "0";
+          clock += month + "-";
+          if(day < 10)
+            clock += "0";
+          clock += day + " ";
+          if(hh < 10)
+             clock += "0";
+          clock += hh + ":";
+          if (mm < 10) clock += '0';
+            clock += mm;
+          return(clock);
+    }
+});
+</script>

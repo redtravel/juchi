@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link href="css/tank.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/foundation-icons/foundation-icons.css" rel="stylesheet" type="text/css" media="all">
+ </head>
+ <body>
+     <div class="login-box">
+     <div class="logo"></div>
+     <div class="form-wrapper">
+
+         <div id="customer-login" class="content">
+             <!--<h3 class="subheading"></h3>-->
+
+             <form method="post" action="" id="customer_login" accept-charset="UTF-8"><input type="hidden" value="customer_login" name="form_type"><input type="hidden" name="utf8" value="?">
+
+
+<!--<div class="form-group">
+          <input type="text" name="email" value="" placeholder="E-Mail Address" id="input-email" class="form-control">
+        </div>-->
+                 <div class="form-group">
+                     
+          <label class="" for="">手机号码</label>
+                     <input type="tel" required="请填写手机号码" name="" id="customer_email" class="col-sm-10 col-xs-12" placeholder="请输入手机号码">
+                 </div>
+
+
+                 <div class="form-group">
+                     <!--<span class="req">*</span>-->
+                     <label class="" for="">验证码</label>
+                     <input type="text" required="" name="authcode" class="col-sm-10 col-xs-12 password" placeholder="请输入验证码"><img src="css/show_verify.jpg" class="code" />
+                 </div>
+                 <div class="form-group">
+                     <!--<span class="req">*</span>-->
+                     <label class="" for="">密码</label>
+                     <input type="password" required="" name="customer[password]" class="col-sm-10 col-xs-12 password" placeholder="请输入密码">
+                 </div>
+                 <div class="form-group">
+                     <!--<span class="req">*</span>-->
+                     <label class="" for="">确认密码</label>
+                     <input type="password" required="" name="customer[password]" class="col-sm-10 col-xs-12 password" placeholder="请输入密码">
+                 </div>
+
+
+                 <div class="last">
+                     <div class="action">
+                         <input class="input-checkbox" type="checkbox" value="1" name="checkout[activate_customer_account]" id="auto_login">
+                         <label for="auto_login">我已阅读并接受<a href="">演示站网服务条款</a></label>
+                     </div>
+                 </div>
+                 <div class="control-wrapper">
+                     <button class="btn btn-default" type="submit"><i class="fa fa-lock left"></i>注册</button>
+                     <p class="fr">已有账号?<a href="javascript:;">登录</a></p>
+                 </div>
+
+             </form>
+
+         </div>
+
+         <!--<div id="recover-password" style="display: none;">
+
+             <h3 class="subheading">Reset Your Password</h3>
+
+             
+
+             <form method="post" action="/account/recover" accept-charset="UTF-8"><input type="hidden" value="recover_customer_password" name="form_type"><input type="hidden" name="utf8" value="?">
+
+
+
+
+
+                 <div class="control-wrapper">
+                     <label for="email">Your Email<span class="req">*</span></label>
+                     <input type="email" value="" name="email" id="recover-email" class="col-sm-10 col-xs-12">
+                 </div>
+
+                 <div class="control-wrapper">
+                     <button class="btn btn-default" type="submit">Submit</button>
+                     <a class="cancel btn btn-default" href="javascript:;" onclick="hideRecoverPasswordForm();">Cancel</a>
+                 </div>
+
+             </form>
+         </div>-->
+     </div>
+     </div>
+ </body>
+</html>

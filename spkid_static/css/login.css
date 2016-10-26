@@ -1,0 +1,198 @@
+.login h2 s,.reg h2 s,.oth_login_c s,.login_alipay,.login_happy,.login_sina,.user_info h2,.btn_union_reg,.btn_union_jump,.fclub_user_info_right .font13b,.btn_union_login,.alert_top,.sub_form{background-image:url(../img/login/loginbg.png)}
+
+.login_line{border-bottom:0px dotted #000;line-height:30px}
+.login,.reg{width:400px;height:460px;margin-top:0px;float:left}
+.loginMain .login{height:326px}
+.login h2,.reg h2{background: url(../image/bt_cm_red.png) 0 -930px  no-repeat; height:41px;line-height:41px;position:relative;color:#fff;font-family:"微软雅黑";font-size:20px;padding-left:25px;font-weight:600}
+
+.login h2 s,.reg h2 s{width:5px;height:39px;overflow:hidden;position:absolute;display:none}
+.s_l{left:0;top:0}
+.sr{right:0;top:0}
+.login h2 .s_l{background-position:left top}
+.login h2 .sr{background-position:-4px top}
+.reg h2 .s_l{background-position:0 -41px}
+.reg h2 .sr{background-position:-6px -41px}
+.login_c,.reg_c{width:100%;float:left; border:1px solid #CCC;width:398px;}
+.login_c{border-top:0; padding:36px 0 0 0; }
+.reg_c{padding:12px 0 0 0}
+.t_w217_c99,.t_w217_sel{width:210px;height:26px;line-height:26px;padding-left:7px;float:left}
+.t_w217_c99{border:1px solid #999}
+.t_w217_sel{border:1px solid #999}
+.t_w90_c99,.t_w90_sel{width:80px;height:26px;line-height:26px;padding-left:7px;float:left}
+.t_w90_c99{border:1px solid #999}
+.t_w90_sel{border:1px solid #999}
+.btn_login,.btn_alipay,.btn_reg{display:block;float:left;border:none;cursor:pointer;overflow:hidden}
+.btn_login,.btn_reg{width:96px;height:22px;line-height:22px;text-align:center;color:#fff;font-size:14px;font-weight:bold;background:url(../image/layout.png) 0px -180px;}
+
+.btn_reg{background:url(../img/login/loginbg.png) -100px -26px}
+.btn_alipay{width:116px;height:25px;background:url(../img/login/loginbg.png) -34px 0;margin-top:5px;margin-left:5px}
+.oth_login{width:360px;float:left;display:inline;margin:15px 0 0 55px}
+.oth_login_c{float:left;position:relative;margin-top:15px}
+.oth_login_c s{width:4px;height:33px;overflow:hidden;position:absolute}
+.s_ocl{left:0;top:0;background-position:-12px -41px}
+.s_ocr{right:0;top:0;background-position:-17px -41px}
+.oth_login_c ul{border:1px solid #D4D4D4;width:358px;height:26px;padding-top:5px}
+.oth_login_c li{margin-left:20px;padding-left:24px;height:20px;line-height:20px}
+.login_alipay{background-position:left -170px;background-repeat:no-repeat}
+.login_happy{background-position:left -191px;background-repeat:no-repeat}
+.login_sina{background-position:left -210px;background-repeat:no-repeat}
+.no_wr{float:left;line-height:60px;clear:both;_padding-top:20px;_height:40px}
+.no_wr a{color:red;text-decoration:underline}
+.wr_tip{color:#FF0000;display:none;padding-left:25px;padding-bottom:10px;float:left;height:20px;line-height:22px;background:url(../img/common/wr_bg.png) left 2px no-repeat;white-space:nowrap}
+.ts_block{background:url(../img/login/loginbg.png) 0 -145px no-repeat;height:33px;line-height:38px;color:#668520;padding-left:7px;overflow:hidden}
+.songjin_top{background:url(../img/login/108_l.jpg) no-repeat scroll;width:960px;height:150px;float:left;margin-top:10px}
+
+
+#content_login{width:1000px;margin:0 auto;  padding-bottom:20px; overflow:hidden; clear:both; background: #fff;}
+
+/*注册登录页面样式补充*/
+.hide{display:none}
+.show{display:block}
+.tdTitle{height:28px;_height:26px;line-height:28px;_line-height:26px;text-align:right}
+.ts_block_box{width:290px;height:39px;display:block;margin-top:4px;float:left}
+.exactness{background:url(../img/login/loginbg.png) -180px 0 no-repeat;width:14px;height:12px;display:block;float:left;margin:7px 0 0 8px}
+.gray{color:#999}
+.black{color:#000}
+#verify_code{width:53px;height:26px;float:left;margin:1px 0 0 10px}
+.registerLogin{padding:50px 0 40px 118px;overflow:hidden;_margin-bottom:40px}
+.registerMainRight,.loginMainRight{width:370px;height:458px;padding-left:30px;float:left;border-left:1px solid #CCC;margin-left:36px;margin-top:1px}
+.registerLogin .registerMainRight{height:324px}
+h2.has_account{font-family:"微软雅黑";font-size:20px;color:#666;font-weight:600;height:18px;line-height:18px;margin-bottom:20px}
+a.fast_login{background:url(../img/login/loginbg.png) -216px 0 no-repeat;width:139px}
+a.login_now{overflow:hidden;background:url(../img/login/loginbg.png) -108px 0 no-repeat;text-decoration:none;width:92px;padding-left:8px}
+.sub_form,a.login_now,a.fast_login{clear:both;float:left;width:112px;height:32px;line-height:30px;margin-right:10px;margin-bottom:7px;padding:0 0 2px 0;color:#222;text-align:center;font-size:14px;font-weight:bold;border:none;background:url(../img/login/loginbg.png) -100px -26px no-repeat;display:block;cursor:pointer;text-decoration:none!important}
+a.register_now, .registerBtn{clear:both;float:left;width:156px;height:30px;line-height:30px;margin-right:10px;color:#eee;text-align:center;font-size:14px;font-weight:bold;border:none;background:url(../image/layout.png) -102px -194px no-repeat;display:block;cursor:pointer;text-decoration:none!important}
+h3.other_way{clear:both;padding:10px 0 7px 0;margin-top:0;font-size:14px;color:black;font-weight:bold;white-space:nowrap}
+ul.union_login,ul.four_info{clear:both;overflow:hidden;}
+ul.union_login{width:450px;display:block;}
+ul.four_info{zoom:1;padding-top:20px}
+ul.union_login li{float:left;margin:0 14px 8px 0}
+ul.union_login li a{display:block;width:90px;height:25px;text-indent:-8000px}
+a.sina_login,a.login360,a.kaixin_login,a.alipay_login,a.qq_login,a.renren_login,a.wangyi_login,a.baidu_login,a.taobao_login,a.fclub_login{background-image:url(../img/login/otherlogin.png)}
+a.sina_login{background-position:0 -50px}
+a.alipay_login{background-position:0 -100px}
+a.qq_login{background-position:0 0}
+a.zhengpin_login,a.mian_login,a.seven_login,a.huo_login{background:url(../img/login/loginbg.png) no-repeat}
+a.zhengpin_login{background-position:0 -220px}
+a.mian_login{background-position:0 -260px}
+a.seven_login{background-position:0 -300px}
+a.huo_login{background-position:0 -340px}
+a.fclub_login{background-position:0 -225px}
+ul.four_info li{float:left;margin:0 10px 10px 0;padding:0;overflow:hidden}
+ul.four_info li a{display:block;width:171px;height:36px;cursor:default}
+.otherLogin{display:block;clear:both;margin:15px 0 25px 0;float:left;width:450px;overflow:hidden;}
+#lhgdg_inbox_thepanel .otherLogin{width:312px;}
+.no_wr strong{margin-left:40px}
+.ts_block_email{background:url(../img/login/loginbg.png) 0 -380px no-repeat;height:33px;line-height:38px;color:#668520;padding-left:35px;font-weight:bold}
+
+/*注册完成*/
+.reg_box,.success_box{margin:0 auto;overflow:hidden;width:948px;padding:40px 25px 40px 25px;background:white}
+.success_box{clear:both}
+.success_info{float:right;width:502px;margin:20px 35px 0 0;_margin-right:18px}
+h1.welcome_to{font-size:30px;height:30px;line-height:30px;padding-bottom:10px;margin:0}
+h1.welcome_to,h2.gx_success{font-family:"微软雅黑";color:black;font-weight:normal;text-align:center}
+h2.gx_success{font-size:22px;height:22px;line-height:22px;color:red;padding-bottom:30px;margin:0}
+ul.success_six{background:url(../img/login/reg_success_bg.png) no-repeat;width:525px;height:138px;height:171px\9;zoom:1;padding:33px 0 5px 63px;clear:both;overflow:hidden}
+ul.success_six li{float:left;height:20px;line-height:20px;font-size:12px;padding-left:30px;margin-bottom:25px}
+.success_bot{margin-top:20px;padding:0 0 0 25px;clear:both;overflow:hidden}
+.suc_right{float:right;width:200px!important}
+.suc_left{float:left;width:260px;margin:0 auto}
+.suc_left p,.suc_right p{height:18px;line-height:18px;padding-bottom:20px;margin:20px auto 0;color:#666;font-size:14px}
+.sub_form{zoom:1;clear:both;float:left;width:111px;height:28px;line-height:28px;margin-right:2px;color:white;text-align:center;font-size:14px;font-weight:bold;border:none;background:url(../img/login/loginbg.png) 0 -420px no-repeat;display:block;cursor:pointer}
+.ml40{margin-left:40px;margin-left:20px\9}
+.ml58{margin-left:58px;margin-left:29px\9}
+.success_left{width:360px!important;height:auto;overflow:hidden;margin:0 auto;float:left}
+.success_left img{width:318px;height:368px}
+.success_left ul{overflow:hidden;float:left}
+.success_left ul li{width:318px;width:320px\9;height:368px;height:370px\9;position:relative;float:left;border:1px solid #D8D7D8;cursor:pointer;overflow:hidden}
+.iXQShadowBoxGreen,.iXQShadowBoxBlue,.iXQShadowBoxWillOn,.iXQShadowBoxWillOnBox,.iXQShadowBoxText{width:320px;height:50px;position:absolute;left:0px;bottom:-1px;cursor:pointer}
+.iXQShadowBoxBlue,.iXQShadowBoxWillOn{background:#d9e1f1;opacity:0.85;filter:alpha(opacity=85);z-index:98}
+.iXQShadowBoxGreen{background:#d4ee8d;opacity:0;filter:alpha(opacity=0);z-index:99}
+.newsBoxForMove{width:272px;width:320px\9;height:35px;line-height:37px;background:url(../img/login/loginbg.png) 0 -460px #CADAF4 no-repeat;padding-left:55px;font-size:12px;position:absolute;top:284px;margin:0}
+.iXQShadowBoxText{z-index:100}
+.iXQTitle{width:100px;height:50px;overflow:hidden;margin-left:8px;padding-top:3px;float:left}
+.iXQTitle p{margin:0;padding:0;line-height:20px;color:#222;font-size:12px;width:115px;height:20px;overflow:hidden;border-top:1px solid #555}
+.iXQTitle .arrow{font-weight:bold;background:url(../img/login/arrow.png) right no-repeat;padding-right:15px;height:22px;float:left}
+.iXQOff,.iXQsOff{color:red;text-align:center}
+.iXQOff,.iXQOffWhite,.iXQsOff{font-size:25px;font-family:arial;margin-left:30px;margin-top:14px;line-height:20px;float:left;width:80px;font-weight:600}
+.iXQDateOff{margin-top:16px;height:15px;background:url(../img/login/iconTimeOff.png) left no-repeat;color:#333;font-size:12px;float:right;padding-left:18px;padding-right:17px;line-height:16px;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/login/iconTimeOff.png" ,sizingMethod="crop")}
+.iXQOff span{font-size:12px;font-weight:bold;color:#d90000}
+.iXQOff font{font-size:25px}
+.arrowLeft,.arrowRight{background:url(../img/login/loginbg.png) no-repeat;width:15px;height:16px;float:left;margin-top:182px;cursor:pointer}
+.arrowLeft{background-position:-6px 0}
+.arrowRight{background-position:-33px 0;margin-left:6px}
+.banner{width:320px;height:370px;overflow:hidden;float:left;position:relative}
+.banner ul{position:absolute;top:0;left:0}
+.hotArea a{display:block}
+li.suc_home,li.suc_am,li.suc_work,li.suc_huo,li.suc_seven,li.suc_china{list-style:none;background:url(../img/login/sucitems.png);background-repeat:no-repeat;color:#4d5f89;cursor:default}
+li.suc_home,li.suc_huo,li.suc_work{width:205px}
+li.suc_home{background-position:0 -80px}
+li.suc_am{background-position:0 -20px}
+li.suc_work{background-position:0 -40px}
+li.suc_huo{background-position:0 -100px}
+li.suc_seven{width:235px;background-position:0 0}
+li.suc_china{background-position:0 -60px}
+.bannerTitle{color:#4d5f89;text-align:center;font-family:"微软雅黑";font-size:18px;font-weight:600;width:320px;margin-bottom:10px;margin-left:15px;_margin-left:15px;clear:both;border-bottom:1px solid #d0d4e4;height:30px}
+#passwordText{position:absolute;top:0;left:0;z-index:999;_left:-219px}
+/*联合登录*/
+#login_union{background:url(../img/login/login_union_bg.jpg) no-repeat #fff;height:648px}
+#login_union .title1,#login_union .title2{font-family:"微软雅黑";color:#334574;text-align:center;line-height:44px}
+#login_union .title1{padding-top:40px}
+.user_info{margin:20px auto 0;background-color:#fff;width:547px;height:394px;box-shadow:0 0 20px rgba(141,164,215,0.3);border:1px solid #ccc;border-top:0}
+.user_info h2{height:35px;line-height:35px;background-repeat:repeat-x;position:relative;color:#000;font-family:"微软雅黑";font-size:15px;padding-left:15px;font-weight:600}
+.btn_union_reg,.btn_union_jump{width:102px;height:34px;line-height:32px;text-align:center;color:#222;font-size:14px;font-weight:bold;float:left;margin-right:14px;cursor:pointer}
+.btn_union_reg{background-position:0 -500px}
+.btn_union_jump{background-position:-110px -500px}
+/*聚尚登录*/
+#fclub_top{background:url(../img/login/fclub_hrader_bg.png) repeat-x;width:100%;height:92px}
+.fclub_t_content{margin:0 auto;width:766px;line-height:80px}
+.fclub_t_logo{background-image:url(../img/login/fclub_login_logo.png);width:266px;height:52px;float:left;position:relative;top:13px;left:25px}
+.fclub_t_info{display:block;float:right;padding-right:25px}
+.fclub_t_info li{color:#fff}
+.fclub_t_info li a{color:#fff;text-decoration:underline;margin-left:16px}
+.fclub_t_info li a:hover{color:#f90000}
+#fclub_content{width:766px;height:272px;margin:0 auto;padding-bottom:20px;overflow:hidden;clear:both;background:#fff;border:1px solid #ccc;border-top:0}
+.fclub_user_info{width:345px;overflow:hidden;margin-left:16px;_margin-left:8px;margin-top:10px;float:left}
+.fclub_user_info ul{border-bottom:1px solid #ccc;height:25px}
+.fclub_user_info ul li{width:116px;text-align:center;cursor:pointer}
+.fclub_user_info ul li div{font:15px "微软雅黑";color:#888;clear:both;height:22px}
+.fclub_user_info ul li span{display:none}
+.fclub_user_info ul .sel{}
+.fclub_user_info ul .sel div{color:#222}
+.fclub_user_info ul .sel span{display:block;height:3px;width:73px;background-color:#bf0000;overflow:hidden;margin:0 auto}
+.fclub_user_info_ul{margin-top:24px}
+#fclub_content .ts_block_box{width:220px}
+#fclub_content .ts_block{background-position:0 -540px;color:red}
+.fclub_user_info_right{border-left:1px solid #CCC;height:234px;width:347px;float:right;padding-left:40px;margin-top:24px}
+.fclub_user_info_right span{font-size:15px}
+.fclub_user_info_right .font13b{background-position:0 -578px;background-repeat:no-repeat;padding-left:28px;height:20px;line-height:20px;margin:25px 0}
+.fclub_user_info_right .font15{line-height:40px}
+#fclub_content .ts_block_box{height:48px}
+.btn_union_login{background-position:-115px -420px;width:105px;height:37px;line-height:37px;text-align:center;color:#fff;font-size:14px;font-weight:bold;float:left;cursor:pointer}
+.fclub_get_password{float:left;padding:12px 0 0 12px;color:#999}
+.fclub_get_password a{color:#000}
+.fclub_get_password a:hover{color:red}
+.other_login{display:none}
+.fast_login{text-align:center}
+#fclub_union_logo{height:96px;overflow:hidden;cursor:pointer}
+.fclub_union_logo{background:url(../img/login/fclub_union_logo.png);width:112px;height:96px;margin:0 auto}
+.fclub_union_logo_hover{background:url(../img/login/fclub_union_logo_hover.png);position:relative;top:-96px;width:112px;height:96px;margin:0 auto;display:none}
+.fclub_reg_new{float:right;padding-top:17px;padding-right:20px}
+.fclub_reg_new a{color:#000}
+.fclub_reg_new a:hover{color:red}
+/*忘记密码 弹窗*/
+.forget_alert{overflow:hidden;margin:0 auto;background:#000;border:1px solid #2D2D2D;width:484px;padding:7px;display:none;position:fixed;_position:absolute;top:50%;left:50%;z-index:99999;margin-left:-250px;margin-top:-106.5px}
+.alert_top{height:35px;background-position:0 -610px}
+.alert_body{zoom:1;clear:both;overflow:hidden;background-color:#fff;padding:25px 20px 18px 25px;_padding-bottom:0px}
+.close_alert{width:20px;height:19px;background:url(../img/login/notice_close.jpg) no-repeat;float:right;margin-right:10px;margin-top:8px;cursor:pointer}
+.alert_title{zoom:1;font-size:14px;font-weight:normal;color:#000;line-height:20px;margin-bottom:15px}
+.alert_body dl{zoom:1;clear:both;overflow:hidden;margin-bottom:12px;_margin-bottom:12px}
+.alert_body dl dt,.alert_body dl dd{float:left}
+.alert_body dl dd{position:relative}
+.alert_body dl dt{width:70px;height:28px;text-align:right;line-height:28px;font-size:14px;float:left}
+p.email_tip{display:none;clear:both;overflow:hidden;color:#666;padding-top:0;padding-left:115px;margin-bottom:15px;line-height:16px}
+.dt115 {width:115px!important;font-family:Tahoma,SimSun,Arial,'宋体'}
+.sub_form{zoom:1;clear:both;float:left;width:108px;height:43px;line-height:38px;margin-right:2px;padding:0 8px 3px 0;color:#fff;text-align:center;font-size:14px;font-weight:bold;border:none;background-position:0 -660px;display:block;cursor:pointer}
+input.forget_user{width:213px;height:26px;padding-left:5px;margin-right:3px;line-height:26px;border:1px solid #989898;color:#989898}
+b.no_thanks{cursor:pointer;font-weight:normal;display:block;float:left;padding-top:13px;color:#000!important;text-decoration:underline;font-size:12px}
+h1.title_top{height:35px;line-height:35px;font-size:12px;font-weight:bold;color:#CCC;padding-left:15px}

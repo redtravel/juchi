@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<express size="300" width="530">
+	<siteName x="20" y="50">演示站</siteName>
+    <company x="30" y="72">上海欧思蔚奥医疗器材有限公司</company>
+	<companyPhone x="65" y="133">400-9905-920</companyPhone>
+    <companyAddress x="20" y="98" width="300" wrapLength="19" indent="18" fontWeight="bold">上海市 浦东新区 周浦镇 建韵路618号3号楼305室</companyAddress>	
+    <orderSn x="115" y="10" fontWeight="bold"/>
+    <orderCell x="167" y="23" fontWeight="bold"/>
+    <reMark x="270" y="285">支持开包验货请先验货后签收</reMark>
+    <rcvPerson x="290" y="50"/>    
+    <city2 x="425" y="12" fontSize="22" fontWeight="bold"/>
+    <!-- 
+    <lcity x="446" y="55"/>
+    <rcvAddress x="360" y="120" append="bestTime" wrapLength="19" indent="18"/>
+   -->
+    <rcvAddress x="270" y="100" wrapLength="20" fontWeight="bold"/> 
+    <bestTime x="350" y="76" /> 
+    <rcvMobile x="336" y="130" fontWeight="bold"/>
+    <rcvTel x="473" y="140"/>
+    <category x="22" y="180">牙科器材</category>
+    <goodsnums x="130" y="172">1</goodsnums>
+    <weight x="195" y="172"/>
+    <sender x="110" y="255">演示站</sender>
+    <pdate x="160" y="255"/>
+    
+</express>
+<!-- 
+    <balance x="548" y="180">√</balance>
+    <scity x="206" y="45">湖州</scity>
+ * 一级元素支持：
+ *  1. append 属性:text的内容=内容+其对应的值
+ *  2. ifEqual 属性值为1时，其下的属性才显示
+ *  3. wrapLength 属性是字符换行长度
+-->

@@ -1,0 +1,10 @@
+$(function(){
+	$("#mid").toggle(function(){
+			window.top.document.getElementById("myframe").cols="0,10,*";
+			$(this).removeClass("nosel").addClass("sel");
+		},
+		function(){
+			 window.top.document.getElementById("myframe").cols="180,10,*";
+			 $(this).addClass("nosel").removeClass("sel");
+	});	
+});

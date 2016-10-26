@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<express size="300">
+	<siteName x="38" y="57">演示站</siteName>
+	<companyPhone x="60" y="158">400-9905-920</companyPhone>
+    <companyAddress x="35" y="82" width="300" wrapLength="18" indent="18">上海市 浦东新区 周浦镇 建韵路618号3号楼305室</companyAddress>	
+    <orderSn x="187" y="0"/>
+    <orderCell x="340" y="0"/>
+    <reMark x="400" y="208" wrapLength="7" noIndent="true">支持开包验货 请先验货后签收</reMark>
+    <rcvPerson x="313" y="56"/>
+    <!--
+    <rcvAddress x="360" y="120" append="bestTime" wrapLength="19" indent="18"/>
+    -->
+    <rcvAddress x="304" y="80" append="bestTime" wrapLength="17" indent="18"/>
+    <rcvMobile x="330" y="157"/>
+    <category x="40" y="177">牙科器材</category>
+    <goodsnum x="185" y="177"/>
+    <sender x="72" y="247">演示站</sender>
+    <right x="209" y="155">√</right>
+</express>
+<!-- 
+ * 一级元素支持：
+ *  1. append 属性:text的内容=内容+其对应的值
+ *  2. ifEqual 属性值为1时，其下的属性才显示
+ *  3. wrapLength 属性是字符换行长度
+-->

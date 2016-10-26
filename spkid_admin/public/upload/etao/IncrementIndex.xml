@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8"?>
+<root>
+	<version>1.0</version>
+	<!--Feed数据格式的版本号-->
+	<modified>2012-03-04 23:45:27</modified>
+	<!--Feed数据文件最近修改时间-->
+	<seller_id>爱童网官网</seller_id>
+	<!--给合作商家创建的淘宝会员账号-->
+	<cat_url>http://img.52kid.me/data/etao/SellerCats.xml</cat_url>
+	<!--商家自定义类目结构文件地址-->
+	<dir>http://img.52kid.me/data/etao/item/</dir>	
+	<item_ids>
+		
+	</item_ids>
+</root>

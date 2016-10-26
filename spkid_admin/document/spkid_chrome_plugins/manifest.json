@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "TaobaoSpider",
+  "description": "淘宝数据抓取.",
+  "version": "1.0",
+
+  "permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://detail.tmall.com/item.htm?id=*"],
+      "js" : ["jquery.min.js","contentscript.js"]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+.faq{padding-left:54px;padding-top:85px;line-height:22px;padding-right:34px;float:left;width:332px}
+.red{color:#F00}
+.black{color:#000} 
+.changjianwenti{height:232px;width:958px;background:url(../img/help/faq.png);border:solid 1px #d2d273}
+.changjianwenti ul li{width:166px}
+.left{width:160px;float:left;overflow:hidden}
+.helpCenter-title{background:url(../img/help/help_bg.png) 32px 10px no-repeat;padding-left:50px;font-weight:600;font-size:14px;border:1px solid #ddd;line-height:34px;margin-bottom:10px}
+.back{background:url(../img/help/left_bg_c.png) repeat-y}
+.left_bg_bottom{background:url(../img/help/left_bg_bottom.png);height:20px}
+.left dl{background-color:#f7f7f7;display:block;float:left; width:160px;} 
+.left dl dt{background-color:#fdc;line-height:30px;color:#000;font-size:14px;text-align:center}
+.left dl dd{width:160px; line-height: 24px;}
+.left dl dd a{display:block;text-decoration:none;padding-left:40px;color:#777;font-size:13px}
+.left dl dd a:hover{color:#d90000;font-weight:bold;background-position:30px -93px}
+.left dl dd a.hm{color:#f00}
+.fc{color:#000}
+.fc13{color:#998f1a;font-size:13px;letter-spacing:1px}
+.fb{font-weight:bold}
+.right{width:780px;float:right;overflow:hidden;border:1px solid #ddd;border-top:0;margin-right:30px;_margin-right:15px}
+.right_top{background:url(../img/help/help_bg.png) 0 -30px repeat-x}
+.right_t{font-size:14px;font-weight:600;padding-left:18px;line-height:35px}
+.right_c{padding:20px 40px 20px 30px;line-height:22px;color:#333}
+.suojin{text-indent:24px}
+.right_c dl{padding-bottom:10px}
+.right_c dl dt{border-bottom:dotted 1px #999;line-height:40px;font-size:14px;font-weight:bold;margin-bottom:5px}
+.right_bottom{background:url() no-repeat;height:20px;width:772px}
+.question h2{font-weight:700;color:#766D00}
+.question a{text-decoration:underline;color:#f60}
+.question .hbg_h2{background:url(../img/help/hbg.png) no-repeat left bottom;padding-left:20px;line-height:28px;font-size:13px}
+.question h3{padding-top:5px;font-weight:700}
+.question p,.p_o,.question .p3{padding-left:25px;padding-top:3px;line-height:20px;color:#666}
+.question p,.p_o{padding-bottom:20px}
+.p_o{padding-left:15px;padding-top:10px}
+.question .p3{padding-bottom:10px;padding-left:15px;}
+.question table{border-left:1px solid #E0E0E0;border-bottom:1px solid #E0E0E0}
+.question th,.question td{border-top:1px solid #E0E0E0;border-right:1px solid #E0E0E0}
+.question th{background-color:#F1EFF0;padding:5px 0}
+.question td{padding:5px}
+.helpCenterC{width:158px;border:1px solid #ddd;border-top:0;overflow:hidden}
+.helpCenterC .sel{display:block;background:url(../img/help/help_bg.png) 30px -93px no-repeat;text-decoration:none;font-size: 13px;color:#f00; padding-left:40px;}
+.sel a:link{}
+#helpMain{margin-bottom:30px\9}
+.helpMain{overflow:hidden;clear:both}
+#helpMain dl{}
+#helpMain dt,#helpMain dd{display:block;float:left;border:0;font-size:12px;line-height:36px;margin-right:15px}
+#helpMain dd,#helpMain dd a{color:#868686}
+#helpMain dd a:hover{color:#f00}
+#helpMain dt{font-size:14px;font-weight:normal;margin-right:40px}
+.now_pos{padding-left:10px;line-height:50px;}
+.now_pos a{color:#555}
+.now_pos a:hover{color:red}
+.now_pos .now{color:#d90000;font-weight:bold;cursor:default}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* -----------------------------------------------
+    HTML ELEMENTS DEFAULT PROPERTIES
+----------------------------------------------- */
+body{font-family:Arial, "宋体", simsun, sans-serif;}
+
+/* LANG----------------------------------------------------------------------*/
+.fs_10{font-family:/*EACH*/Arial, "宋体", simsun, sans-serif;}
+.fs_11{font-family:/*EACH*/Arial, "宋体", simsun, sans-serif;}
+
+
+/* -----------------------------------------------
+    content_common 언어변경 이미지
+----------------------------------------------- */
+.iPower{width:/*EACH*/59px;}
+.iGood{width:/*EACH*/59px;}
+
+div.numberStyle01 .inputArea label{width:/*EACH*/130px;}
+
+/* -----------------------------------------------
+    LAYOUT 언어변경 이미지
+----------------------------------------------- */
+#quickInfo .group_wing a{background-image:url(../image/btn_quickinfo.png?131004) !important;}
+.m18 #quickInfo .group_wing a{background-image:url(../../m18/common/image/btn_quickinfo.png?131004) !important;}
+
+/* -----------------------------------------------
+    COUPON 언어별 이미지
+----------------------------------------------- */
+.cp_basic{background-image:url(../image/coupon/cp_basic.png?131004);}
+.ct_65, .ct_65_on, .ct_77, .ct_77_on, .ct_101, .ct_135, .ct_140, .ct_167, /*old version*/ 
+.cp_cart{background-image:url(../image/coupon/cp_basic_cart.png?131004);}

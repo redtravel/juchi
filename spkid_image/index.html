@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#2196f3">
+    <title>演示站</title>
+    <link rel="stylesheet" href="static/css/framework7.material.css">
+    <link rel="stylesheet" href="static/css/framework7.material.colors.css">
+    <link rel="stylesheet" href="static/css/themify-icons.css">
+    <link rel="stylesheet" href="static/css/my-app.css">
+  </head>
+  <body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <p>Left panel content goes here</p>
+      </div>
+    </div>
+    <!-- Views -->
+    <div class="views">
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through navbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page yueya-blue">
+        <div class="navbar">
+          <div class="navbar-inner navbar-on-center">
+            <div class="left sliding">
+              <a href="#" class="link icon-only"><i class="icon ti-search"></i></a>
+            </div>
+            <div class="center sliding">演示站商店</div>
+            <div class="right">
+              <a href="#" class="link icon-only"><i class="icon ti-shopping-cart"></i></a>
+              <a href="#" class="link icon-only"><i class="icon ti-menu-alt"></i></a>
+            </div>
+          </div>
+        </div>
+              <div class="page-content infinite-scroll">
+                  <div data-pagination=".swiper-pagination" data-slides-per-view="auto" data-centered-slides="true" class="swiper-container swiper-init ks-demo-slider ks-coverflow-slider">
+                      <div class="swiper-pagination"></div>
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="static/img/banner.jpg" /></div>
+                          <div class="swiper-slide"><img src="static/img/banner.jpg" /></div>
+                      </div>
+                  </div>
+                  <div class="block-view two-column list-hu">
+                      <div class="block-wrap">
+                          <div class="block-caption bg-hot">特卖区</div>
+                          <ul class="items-wrap one-column">
+                              <li class="grey-border-radius"><a href="">新亚自锁托槽</a></li>
+                              <li class="grey-border-radius"><a href="">新亚自锁托槽</a></li>
+                          </ul>
+                      </div>
+                      <div class="block-wrap">
+                          <div class="block-caption bg-brand">品牌区</div>
+                          <ul class="items-wrap two-column">
+                              <li><a href="" class="grey-border-radius" ><img src="static/img/brand/logo_017.jpg" /></a></li>
+                              <li><a href="" class="grey-border-radius"><img src="static/img/brand/logo_018.jpg" /></a></li>
+                              <li><a href="" class="grey-border-radius"><img src="static/img/brand/brand_1.jpg" /></a></li>
+                              <li><a href="" class="grey-border-radius"><img src="static/img/brand/brand_2.jpg" /></a></li>
+                          </ul>
+                      </div><!-- block-wrap -->
+                  </div><!-- block-view -->
+                  <div class="block-view two-column">
+                      <div class="block-product"><!-- 一个块 -->
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-hot create-page"><img src="static/img/product/pro_002.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <span class="rate">10</span>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                      <div class="block-product"><!-- 一个块 -->
+                          
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-exhibit"><img src="static/img/product/pro_003.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <div class="rate">10</div>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                  </div><!-- block-view -->
+				  <div class="block-view two-column">
+                      <div class="block-product"><!-- 一个块 -->
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-hot create-page"><img src="static/img/product/pro_002.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <span class="rate">10</span>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                      <div class="block-product"><!-- 一个块 -->
+                          
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-exhibit"><img src="static/img/product/pro_003.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <div class="rate">10</div>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                  </div><!-- block-view --><div class="block-view two-column">
+                      <div class="block-product"><!-- 一个块 -->
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-hot create-page"><img src="static/img/product/pro_002.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <span class="rate">10</span>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                      <div class="block-product"><!-- 一个块 -->
+                          
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-exhibit"><img src="static/img/product/pro_003.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <div class="rate">10</div>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                  </div><!-- block-view --><div class="block-view two-column">
+                      <div class="block-product"><!-- 一个块 -->
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-hot create-page"><img src="static/img/product/pro_002.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <span class="rate">10</span>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                      <div class="block-product"><!-- 一个块 -->
+                          
+                          <div class="view-image"><!-- 图片内容 -->
+                              <a href="" class="prd-exhibit"><img src="static/img/product/pro_003.jpg" /></a>
+                          </div>
+                          <div class="product-caption">标准型网底直丝弓托槽(E系列) 3带钩</div><!-- 标题 -->
+                          <div class="price-line">
+                              <a href="" class="market-price">&yen;198</a>
+                              <span class="price">&yen;150</span>
+                              <div class="rate">10</div>
+                          </div>
+                      </div> <!-- 一个块 -->                   
+                  </div><!-- block-view -->
+            </div><!--page-content-->
+        <div class="toolbar tabbar-labels">
+          <div class="toolbar-inner">
+            <a href="#" class="link active"><i class="icon icon-store"></i></a>
+            <a href="#" class="link"><i class="icon icon-train"></i></a>
+            <a href="#" class="link"><i class="icon icon-community"></i></a>
+            <a href="#" class="link"><i class="icon icon-individual"></i></a>
+          </div>
+        </div>
+        </div><!-- page -->
+        </div><!-- pages -->
+      </div>   
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="static/js/framework7.min.js"></script>
+    <script type="text/javascript" src="static/js/my-app.js"></script>
+  </body>
+</html>              

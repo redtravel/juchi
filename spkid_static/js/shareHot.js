@@ -1,0 +1,1 @@
+FS.extend(FS,function(){function a(f){var b=FS(f.eventTarget),e=f.minHeight,d=f.maxHeight,c=b.length-1;for(;c>=0;c--){FS.addEvent(b[c],"mouseenter",function(){var g=FS.getChildNodes(this)[1];FS.slide(g,"height",e,d,300)});FS.addEvent(b[c],"mouseleave",function(){var g=FS.getChildNodes(this)[1];FS.slide(g,"height",d,e,300)})}}return{ishareHot:a}}());

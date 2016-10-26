@@ -1,0 +1,28 @@
+/*--=reset--*/
+*{margin:0; padding:0;}
+img { border: 0;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+input, button, textarea,select, optgroup, option {font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit; *font-size: 100%; margin:0 2px;}
+button{ *line-height:15px;}
+optgroup{font-weight:bold;} option{font-weight:normal;}
+ol, ul {list-style: none;}
+table{empty-cells:show;border-collapse:collapse;}
+th{ font-weight:normal;}
+:link, :visited {text-decoration:none; color:#000;}
+a:hover{ text-decoration:underline;}
+/*--comment--*/
+html,body,td{height:100%; font:12px/22px Arial, Helvetica, sans-serif;background-color:#fff;margin:0px; padding:0px;}
+.form{ width:100%; }
+.form td{ border-bottom:1px dotted #ccc; padding:1px;}
+
+.pic_block{ width:125px; float:left; border-right:1px dotted #E3F4CF; border-bottom: 1px dotted #E3F4CF; padding:5px 0;}
+.pic_block li{ width:125px; text-align:center; background:none; height:auto; margin:0;}
+
+td.item_title {text-align:right; background-color:#F3F3F3;}
+td.item_input {text-align:left;}
+
+.rfMenuBox{width:auto; height:20px; line-height:20px; background:#eee;}
+a.rfMainMenu{font-size:13px; color:#000; padding:3px 4px;}
+a.cur_menu, a.rfMainMenu:hover, .rfMainMenu a:hover{color:#fff; paddiing:3px 6px; background:#444;text-decoration: none;}
+#content { width: 220px; overflow:auto; }
+#content label.half_row{ float:left; width:45%; text-align:center; }

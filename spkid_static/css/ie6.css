@@ -1,0 +1,11 @@
+html{overflow-x:hidden;}
+
+/* = HTML Elements Default Properties
+--------------------------------------------------------------------------------------------*/
+input.radioType{ margin: -2px 0 0 -3px;}
+
+/* [[ Button Common ]] */
+* html span.button a:link,
+* html span.button a:visited,
+* html span.button a:hover,
+* html span.button a:active{ cursor: hand;} /* ie6 hack */

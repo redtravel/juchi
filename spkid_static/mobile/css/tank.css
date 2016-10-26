@@ -1,0 +1,89 @@
+/*-------------------------------article------------------------------------*/
+.date,.author{color:#C8C8C8}
+.date{margin-left:30px}
+.item-title-row{color:#000}
+/*-------------------------------登录与注册------------------------------------*/
+.signin .page {background: #0D413A url(../img/login-bj.jpg) no-repeat;background-size: 100% 100%;}
+.signin .navbar {background: none;}
+.signin .login-form input{color: #BAD7DF;}
+.login-form,.login-form a{color: #BAD7DF;}
+.login-form>.list-block{margin-bottom:0}
+.login-form input[type="text"],.login-form input[type="password"]{border:1px solid #fff;}
+.login-form .buttons-row{}
+.button.disabled{opacity:0.5}
+/*.content-block.color-indigo {
+  background-color: #133447;
+  background-color: rgba(255,255,255,.5);
+  background-clip: content-box;
+}*/
+
+
+/*文章详情*/
+.detail-wx {color:white; text-align:center; margin-top:10px;}
+.yueya-logo{  position:absolute; right:10px; top:10px; width:100px;}
+.yueya-logo img{ width:100%;}
+.details-lb{ position:relative;}
+.article-share {
+		width: 25px;
+		height: 48px;
+		background-size: 30px auto;
+	}
+
+.details-left{ float:left; width:150px; background-color:#fff; height:30px; border-top-left-radius:10px; -moz-border-top-left-radius:10px; -webkit-border-top-left-radius:10px; -mos-border-top-left-radius:10px;   
+border-top-right-radius:10px; -moz-border-top-right-radius:10px; -webkit-border-top-right-radius:10px; -mos-border-top-right-radius:10px; }
+
+.details-right{  text-align:right; float:right; padding:0 10px 5px 0; overflow:hidden;} 
+
+.details-lb{  
+	padding:40px 10px 80px 10px;  background-color: #fff;}
+
+
+.author-information{ overflow:hidden; padding-bottom: 15px;}
+.author-information dt{ width:85px; float:left; margin-right:20px;} 
+
+
+.author-information dd{ overflow:hidden; color:#555; font-size:1.2em; margin-bottom:5px;}
+.author-information dt img{ width:100%;}
+.author-information .v-size{ color:#8B8B8B; font-size:1em; }
+
+
+.author-information dd span{ display:inline-block;}
+.details-time,.details-gjz{  font-size:0.9em; color:#6b6b6b;}
+.details-time span{ padding-left:10px;}
+.details-bt{color:#181818; font-size:1.4em; padding-top:5px; padding-bottom:5px; font-style: normal;}
+.details-news{ padding-top:15px;}
+.details-news p{ font-size:14px; color:#575757;}
+
+
+.icon-share{ background:url(../svg_icons/share.svg) no-repeat; background-size:100% 100%; }
+.v-share{ background: #FFDC5B url(../svg_icons/share.svg) no-repeat center center; background-size:30px auto; }
+.v-liuyan{ background: #fb4545 url(../img/jiantou-shang.png) no-repeat center right 20px; background-size:30px auto; }
+
+.comment{ margin: 0 auto; width: 60%; margin-top: 10px; margin-bottom: 10px; text-align: center; }
+.back-article{ border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px; -mos-border-radius:20px;  background-color:#F93; text-align: center; 
+	 padding:6px 20px;}
+
+
+.comment-lb,.related-lb{ margin-top:15px;}
+
+.comment-img{ width:62px; float:left;}
+.comment-img img{ width:100%;}
+.grey-hu{  background:#f1f1f1 url(../img/hs-tx.png) no-repeat center center; background-size:60px auto; width:80px; height:80px; float:left;}
+
+.conment-main,.related-lb{ overflow: hidden;}
+
+.comment-nr { position:relative;  margin-left:20px;}
+.comment-mc{ color:#808080; font-size:1em;}
+.comment-mc span{ color:#004661; font-size:1.2em; padding-right:10px;}
+.comment-js{ color:#373737;}
+
+.related-articles{ overflow:hidden; margin-top:30px;}
+.related-tit{ color:#fff; font-size:1.2em; }
+.related-lb li{ padding:10px; margin-bottom:10px;}
+.related-lb h3{ font-size:1.2em; color:#181818; height:25px; overflow:hidden;}
+.related-write{ color:#b6b5b5; padding-top:10px; font-size:14px;}
+.related-write span{ padding-left:30px; }
+
+.toolbar:not(.messagebar) ~ .page-content { padding-top: 40px;}
+
+

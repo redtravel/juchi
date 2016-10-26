@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<express size="300">
+    <senderNo x="32" y="80"></senderNo>
+    <cardNo x="300" y="113"></cardNo>
+    <monthCard x="394" y="103"></monthCard>
+    <addressNo x="389" y="47"></addressNo>
+    <siteName x="20" y="72">上海欧思蔚奥医疗器材有限公司</siteName>
+	<companyPhone x="20" y="90">400-9905-920</companyPhone>
+    <companyAddress x="15" y="106" width="300" wrapLength="18" indent="18">上海市 浦东新区 周浦镇 建韵路618号3幢楼305室</companyAddress>	
+    <orderSn x="62" y="30"/>
+    <orderCell x="110" y="43"/>
+    <reMark x="280" y="286" wrapLength="14" indent="18">支持开包验货 请先验货后签收</reMark>
+    <isCod ifEqual="1">
+		<right x="255" y="205">√</right>
+	</isCod>
+    <rcvPerson x="180" y="173"/>
+    <rcvAddress x="15" y="208" append="bestTime" wrapLength="21" indent="18"/>
+	<rcvMobile x="145" y="193"/>
+    <category x="20" y="265">牙科器材</category>
+    <weight x="78" y="286"/>
+    <goodsnums x="20" y="286">1</goodsnums>
+    <sender x="290" y="260">演示站</sender>
+    <pdate x="275" y="273"/>
+    <account x="330" y="223">0216350608</account>
+</express>
+<!-- 
+ * 一级元素支持：
+ *  1. append 属性:text的内容=内容+其对应的值
+ *  2. ifEqual 属性值为1时，其下的属性才显示
+ *  3. wrapLength 属性是字符换行长度
+-->

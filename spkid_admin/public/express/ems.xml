@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<express size="300">
+    <orderSn x="86" y="17"/>
+    <orderCell x="230" y="17"/>
+    <sender x="30" y="48">默沙东揽投部</sender>
+    <sender2 x="452" y="114">演示站</sender2>
+	<siteName x="46" y="64">演示站</siteName>
+    <companyPhone x="150" y="48">400-0966-021</companyPhone>
+    <custormPostNo x="46" y="107"/>
+    <companyPostCode x="200" y="107">201101</companyPostCode>
+	<rcvPerson x="34" y="138"/>
+	<rcvMobile x="164" y="138"/>
+    <rcvAddress x="23" y="161" append="bestTime" wrapLength="27" indent="18"/>
+    <category x="50" y="265">牙科器材</category>
+    <goodsnum x="110" y="265"/>
+    <right x="82" y="278">√</right>
+    <payMethod x="352" y="238">√</payMethod>
+    <isCod ifEqual="1">
+		<right x="290" y="104">√</right>
+		<codAmount x="368" y="108" />
+		<codAmount2 x="300" y="121" />
+    </isCod>
+    <reMark x="444" y="238" wrapLength="7" noIndent="true">支持开包验货 请先验货后签收</reMark>
+</express>
+<!-- 
+ * 一级元素支持：
+ *  1. append 属性:text的内容=内容+其对应的值
+ *  2. ifEqual 属性值为1时，其下的属性才显示
+ *  3. wrapLength 属性是字符换行长度
+-->

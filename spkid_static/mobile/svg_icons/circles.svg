@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 135 135" style="enable-background:new 0 0 135 135;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M67.4,58c5.5,0,10-4.5,10-10s-4.5-10-10-10s-10,4.5-10,10S61.9,58,67.4,58z M76.9,67.4c0,5.5,4.5,10,10,10
+	s10-4.5,10-10s-4.5-10-10-10S76.9,61.9,76.9,67.4z M67.4,76.9c-5.5,0-10,4.5-10,10s4.5,10,10,10s10-4.5,10-10S73,76.9,67.4,76.9z
+	 M58,67.4c0-5.5-4.5-10-10-10s-10,4.5-10,10s4.5,10,10,10S58,73,58,67.4z">
+<animateTransform  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" dur="2.5s" fill="remove" from="0 67 67" repeatCount="indefinite" restart="always" to="-360 67 67" type="rotate">
+		</animateTransform>
+</path>
+<path class="st0" d="M28.2,40.3c6.6,0,12-5.4,12-12s-5.4-12-12-12s-12,5.4-12,12S21.6,40.3,28.2,40.3z M58.9,20.5
+	c4.7,4.7,12.3,4.7,17,0s4.7-12.3,0-17s-12.3-4.7-17,0S54.2,15.8,58.9,20.5z M94.7,28.2c0,6.6,5.4,12,12,12s12-5.4,12-12
+	s-5.4-12-12-12C100,16.2,94.7,21.6,94.7,28.2z M114.5,58.9c-4.7,4.7-4.7,12.3,0,17s12.3,4.7,17,0s4.7-12.3,0-17
+	S119.2,54.2,114.5,58.9z M106.8,94.7c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12C118.8,100,113.4,94.7,106.8,94.7z M76,114.5
+	c-4.7-4.7-12.3-4.7-17,0s-4.7,12.3,0,17s12.3,4.7,17,0S80.7,119.2,76,114.5z M40.3,106.8c0-6.6-5.4-12-12-12s-12,5.4-12,12
+	s5.4,12,12,12S40.3,113.4,40.3,106.8z M20.5,76c4.7-4.7,4.7-12.3,0-17s-12.3-4.7-17,0s-4.7,12.3,0,17S15.8,80.7,20.5,76z">
+<animateTransform  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" dur="8s" fill="remove" from="0 67 67" repeatCount="indefinite" restart="always" to="360 67 67" type="rotate">
+		</animateTransform>
+</path>
+</svg>

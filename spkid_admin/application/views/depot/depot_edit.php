@@ -1,0 +1,121 @@
+<?php include(APPPATH.'views/common/header.php');?>
+<script type="text/javascript" src="public/js/utils.js"></script>
+<script type="text/javascript" src="public/js/validator.js"></script>
+<script type="text/javascript">
+	//<![CDATA[
+	$(function(){
+	});
+	function check_form(){
+		var validator = new Validator('mainForm');
+			validator.required('depot_name', '请填写仓库名称');
+			//validator.required('depot_code', '请填写仓库编码');
+			validator.required('depot_position', '请填写仓库地点');
+			validator.isInt('depot_priority', '请填写正确的仓库优先级');
+			return validator.passed();
+	}
+	//]]>
+</script>
+<div class="main">
+	<div class="main_title">
+	<span class="l">仓库管理 &gt;&gt; 仓库编辑</span>
+	 <span class="r">[ <a href="/depot/depot_list">返回列表 </a>]</span>
+	<?php if (check_perm('depot_edit')): ?>
+	 <span class="r"><a href="depot/add_depot" class="add">新增</a></span>
+	<?php endif; ?>
+	</div>
+	<div class="blank5"></div>
+	<?php print form_open('/depot/proc_edit_depot',array('name'=>'mainForm','onsubmit'=>'return check_form()'),array('depot_id'=>$row->depot_id));?>
+		<table class="form" cellpadding=0 cellspacing=0>
+			<tr>
+				<td colspan=2 class="topTd"></td>
+			</tr>
+			<tr>
+				<td class="item_title" width="12%">仓库名称:</td>
+				<td class="item_input">
+				<?php if ($can_edit): ?>
+				<?php print form_input(array('name'=> 'depot_name','class'=> 'textbox require','value' => $row->depot_name));?>
+				<?php else: print $row->depot_name; ?>
+				<?php endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td class="item_title">仓库地点:</td>
+				<td class="item_input">
+				<?php if ($can_edit): ?>
+				<?php print form_input(array('name'=> 'depot_position','class'=> 'textbox require','value' => $row->depot_position));?>
+				<?php else: print $row->depot_position; ?>
+				<?php endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td class="item_title">优先级:</td>
+				<td class="item_input">
+				<?php if ($can_edit): ?>
+				<?php print form_input(array('name'=> 'depot_priority','class'=> 'textbox','value' => $row->depot_priority));?>
+				<?php else: print $row->depot_priority; ?>
+				<?php endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td class="item_title">仓库类型:</td>
+				<td class="item_input">
+				<?php if ($can_edit): ?>
+					<label>可售<?php print form_radio(array('name'=>'depot_type', 'value'=>1,'checked'=>$row->depot_type==1)); ?></label>
+					<label>不可售<?php print form_radio(array('name'=>'depot_type', 'value'=>0,'checked'=>$row->depot_type!=1)); ?></label>
+				<?php else: ?>
+					<label>可售<?php print form_radio(array('name'=>'depot_type', 'value'=>1,'checked'=>$row->depot_type==1,'disabled'=>'disabled')); ?></label>
+					<label>不可售<?php print form_radio(array('name'=>'depot_type', 'value'=>0,'checked'=>$row->depot_type!=1,'disabled'=>'disabled')); ?></label>
+				<?php endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td class="item_title">退货仓:</td>
+				<td class="item_input">
+				<?php if ($can_edit): ?>
+					<label>是<?php print form_radio(array('name'=>'is_return', 'value'=>1,'checked'=>$row->is_return==1)); ?></label>
+					<label>否<?php print form_radio(array('name'=>'is_return', 'value'=>0,'checked'=>$row->is_return==0)); ?></label>
+				<?php else: ?>
+					<label>是<?php print form_radio(array('name'=>'is_return', 'value'=>1,'checked'=>$row->is_return==1,'disabled'=>'disabled')); ?></label>
+					<label>否<?php print form_radio(array('name'=>'is_return', 'value'=>0,'checked'=>$row->is_return==0,'disabled'=>'disabled')); ?></label>
+				<?php endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td class="item_title">状态:</td>
+				<td class="item_input">
+				<?php if ($can_edit): ?>
+					<label>可用<?php print form_radio(array('name'=>'is_use','value'=>1,'checked'=>$row->is_use==1));?></label>
+					<label>停用<?php print form_radio(array('name'=>'is_use','value'=>0,'checked'=>$row->is_use!=1));?></label>
+				<?php else: ?>
+					<label>可用<?php print form_radio(array('name'=>'is_use','value'=>1,'checked'=>$row->is_use==1,'disabled'=>'disabled'));?></label>
+					<label>停用<?php print form_radio(array('name'=>'is_use','value'=>0,'checked'=>$row->is_use!=1,'disabled'=>'disabled'));?></label>
+				<?php endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td class="item_title">合作方式:</td>
+				<td class="item_input">
+                                <?php foreach ($all_cooperations as $coop): ?>
+                                    <?php if ($can_edit): ?>
+                                        <label><?=$coop->cooperation_name;?><?php print form_radio(array('name'=>'cooperation_id','value'=>$coop->cooperation_id,'checked'=>$row->cooperation_id==$coop->cooperation_id));?></label>
+                                    <?php else: ?>
+                                        <label><?=$coop->cooperation_name;?><?php print form_radio(array('name'=>'cooperation_id','value'=>$coop->cooperation_id,'checked'=>$row->cooperation_id==$coop->cooperation_id,'disabled'=>'disabled'));?></label>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+				</td>
+			</tr>
+			<tr>
+				<td class="item_title"></td>
+				<td class="item_input">
+				<?php if ($can_edit): ?>
+					<?php print form_submit(array('name'=>'mysubmit','class'=>'am-btn am-btn-primary','value'=>'编辑'));?>
+				<?php endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 class="bottomTd"></td>
+			</tr>
+		</table>
+	<?php print form_close();?>
+</div>
+<?php include(APPPATH.'views/common/footer.php');?>

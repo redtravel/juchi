@@ -1,0 +1,60 @@
+﻿@charset "utf-8";
+
+/* Group Buy Icon (en,ja,ko,zh) */
+table.orderList tbody tr td .icon_group{
+	display:inline-block; width:55px; height:16px; vertical-align:middle; margin:0 5px 1px 0;
+	background: url(../image/flow/ic_grpbuy.png?120726) no-repeat;
+}
+
+/* #10717 버튼리소스화 (zh) */
+#eNets .btns a.btn_bl strong {font-size:25px;}
+
+
+/* ＝ BACKGROUND IMAGE WITH TEXT (차차 이미지태그로 변경할것!)
+--------------------------------------------------------------------------------------------*/
+.layer_ship .g_form .g_btnSearch {background-image:url(../image/flow/btn_order_txt.png?120726);}
+.layer_ship .g_bClose {background-image:url(../image/flow/btn_order_txt.png?120726);}
+table.orderList tbody tr td.discount a.orderBtns.btn_mycoupon {width:68px; background-image:url(../image/flow/btn_order_txt.png?120726); background-position:-508px -235px;}
+table.orderList tbody tr td.qty a.orderBtns.btn_edit {background-image:url(../image/flow/btn_order_txt.png?120726);}
+
+
+/* -----------------------------------------------
+	M18
+----------------------------------------------- */
+.m18 table.orderList tbody tr td.qty a.orderBtns.btn_edit {background-image:url(../image/flow/btn_order_txt.png);}
+/*购物券弹层样式*/
+
+#mycouponbox{overflow:hidden;width:805px;background-color:#fff}
+#mycouponbox .header{position:relative;height:37px;background-color:#5e6066}
+#mycouponbox .header h2{float:left;height:37px;padding-left:10px;line-height:37px;background-color:#4b4d52;color:#ffe600;font-size:18px}
+#mycouponbox .header i{float:left;width:30px;height:37px;margin-right:15px;background:url(../image/flow/bg_mycoupon.png?131115) 0 0 no-repeat;_background:#4b4d52}
+#mycouponbox .header p.desc{color:#ebebec;font-size:13px;font-weight:bold;line-height:37px}
+#mycouponbox .header .layer_howUse{top:10px;right:10px;}
+#mycouponbox .header .mc_close{position:absolute;top:10px;right:10px;width:20px;color:#1391ec;font:17px/17px Arial;text-align:center;text-decoration:none;}
+#mycouponbox .container{padding:12px 14px 10px 15px; background: #fff;}
+/* CAUTION_TOP */
+#mycouponbox .area_ctn_top{margin:-12px -14px 12px -15px;padding:12px 14px 10px 15px;background-color:#eee;color:#5f6065;font-weight:bold}
+#fCashTable{width:100%; height:auto; border:none; border-collapse:collapse; border:1px solid #f2f2f2; clear:both;}
+#fCashTable tr{ height:34px; }
+#fCashTable th,#fCashTable td{ border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-top:1px solid #ccc; border-left:1px solid #ccc; text-align:center;}
+#fCashTable th{background:#f2f2f2;}
+#fCashTable td{background:#fff;}
+/*--button--*/
+.fBtnGrayBig,.fBtnRedBig{width:124px; height:40px; background-image:url(../image/flow/bgFlow.jpg); display:block; text-align:center; line-height:35px; font-size:14px; color:#fff; float:left; cursor:pointer;}
+.fBtnGrayBig{background-position:-548px -166px;}
+.fBtnRedBig{ background-position:-111px -166px;}
+.fBtn2Gray{width:50px; height:22px; display:block; background:url(../image/flow/bgFlow.jpg) -350px -130px no-repeat; text-align:center; line-height:22px; font-weight:normal; margin: 5px auto; cursor:pointer;}
+.fBtn2Box{margin-top:20px; float:right;}
+.fBtnRedNoShadow{width:70px; height:24px; background:url(../image/flow/bgFlow.jpg) -279px -130px no-repeat; display:block; float:left; cursor:pointer; text-align:center; font-weight:normal; color:#fff; line-height:24px;}
+
+#p_user_voucher{height:24px; margin-top:20px;}
+#p_new_voucher{height:39px; position:relative;}
+#span_new_voucher{position: absolute;top: 20px;}
+.main_fLeft{float:left;}
+.lineheight24{ line-height:24px;}
+.fOtherTimeBox{padding:15px; font-size:14px;}
+.fOtherTimeBox ul{ list-style:none;}
+.fOtherTimeBox ul li{ list-style:none; height:25px;}
+.fOtherTimeTextBox{width:188px; height:20px; border:1px solid #999; line-height:22px; padding-left:5px; color:#999;}
+.main_mL10{margin-left:10px;}
+.main_mR10{margin-right:10px;}

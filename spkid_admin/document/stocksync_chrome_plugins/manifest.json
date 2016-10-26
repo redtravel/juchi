@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "TaobaoStock",
+  "description": "淘宝库存同步.",
+  "version": "1.0",
+
+  "permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://detail.tmall.com/item.htm?_=stock&id=*","http://detail.tmall.com/auction/noitem.htm*"],
+      "js" : ["jquery.min.js","contentscript.js"]
+    }
+  ]
+}

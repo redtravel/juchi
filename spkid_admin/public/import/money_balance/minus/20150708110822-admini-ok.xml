@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+
+<Styles>
+ <Style ss:ID="Default" ss:Name="Normal">
+  <Alignment ss:Vertical="Bottom"/>
+  <Borders/>
+  <Font/>
+  <Interior/>
+  <NumberFormat/>
+  <Protection/>
+ </Style>
+ <Style ss:ID="s27">
+  <Font x:Family="Swiss" ss:Color="#0000FF" ss:Bold="1"/>
+ </Style>
+   <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+</Styles>
+
+ <Worksheet ss:Name="Sheet1">
+  <ss:Table>
+   <Row>
+    <Cell ss:MergeAcross="7" ss:StyleID="s64" colspan="8"><Data ss:Type="String">20150708110822会员退款批量操作成功明细</Data></Cell>
+   </Row>
+   <ss:Row>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">用户ID</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">日期</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">会员名称</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">登录名</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">金额</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">户名</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">开户行</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">地市</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">账号</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">退货原因</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">相关部门</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">责任人</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">原因</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">整改措施</Data></ss:Cell>
+       
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">账户原金额</Data></ss:Cell>
+      <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">原账户金额</Data></ss:Cell>   </ss:Row>
+      <ss:Row>
+         <ss:Cell><Data ss:Type="String">20</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">2015/7/7</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">15618297832</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">15618297832</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">100</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">测试</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">工行</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">上海</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">6.222E+16</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">不好看</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">IT</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">测试1</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">测试2</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">测试3</Data></ss:Cell>
+	    <ss:Cell><Data ss:Type="String">1063.00</Data></ss:Cell>
+		</ss:Row>
+         </ss:Table>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,201 @@
+        <div data-page="index" data-name="index" class="page">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="left"><a href="#" class="link icon-only open-panel"> <i class="icon searchico"></i></a></div>
+                    <div class="center c_name">悦牙商城</div>
+                    <div class="right"><a href="#" class="link icon-only open-panel"> <i class="icon cartico"><span class="badge bg-red">3</span></i></a><a href="#" data-popover=".popover-links" class="link icon-only open-popover"><i class="icon csearchico"></i></a></div>
+      
+                </div>
+            </div>
+            <div class="page-content" data-distance="100">
+                <div class="content-block">
+
+                        <div class="swiper-box">
+                            <div class="swiper-container">        
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/focus01.jpg"></div>
+                                    <div class="swiper-slide"><img src="img/focus02.jpg"></div>
+                                    <div class="swiper-slide"><img src="img/focus03.jpg"></div>
+                                    <div class="swiper-slide"><img src="img/focus04.jpg"></div>
+                                    <div class="swiper-slide"><img src="img/focus05.jpg"></div>			
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <div class="brandlist">
+                            <div class="brand"><img src="img/brand01.jpg"></div>
+                            <div class="brand"><img src="img/brand02.jpg"></div>
+                            <div class="brand"><img src="img/brand03.jpg"></div>
+                            <div class="brand"><img src="img/brand04.jpg"></div>
+                        </div>
+
+                        <div class="brandlist">
+                            <div class="brand"><img src="img/brand02.jpg"></div>
+                            <div class="brand"><img src="img/brand03.jpg"></div>
+                            <div class="brand"><img src="img/brand04.jpg"></div>
+                            <div class="brand"><img src="img/brand01.jpg"></div>
+                        </div>
+
+                        <div class="zone">
+                            <div class="tb_button">特卖区</div>
+                            <div class="tb_button">品牌区</div>
+                        </div>
+
+
+                        <div class="listb">
+                            <ul>
+
+                                <li>
+                                <a href="prodinfo_0001.html" class="">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_sale">新品</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod004.jpg"></div>
+                                            <div class="prod_name">新亚 .022# 网底直丝弓颊面管 第一磨牙(上下单方管)</div>
+                                            <div class="bline">
+                                                <div class="favoheart">245</div>
+                                                <div class="price_bar"><span class="prod_pprice">1500.00</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#2" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_show">展品</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod002.jpg"></div>
+                                            <div class="prod_name">新亚 网底直丝弓颊面管</div>
+                                            <div class="bline">
+                                                <div class="favoheart">645</div>
+                                                <div class="price_bar"><span class="ask_price"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                </li>
+
+                                <li>
+                                <a href="#3" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_sale">热品</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod002.jpg"></div>
+                                            <div class="prod_name">新亚 .022# 网底直丝弓颊面管 第一磨牙(上下单方管)</div>
+                                            <div class="bline">
+                                                <div class="favoheart">245</div>
+                                                <div class="price_bar"><span class="prod_pprice">150.00</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#4" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_edu">课程</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod005.jpg"></div>
+                                            <div class="prod_name">新亚 网底直丝弓颊面管</div>
+                                            <div class="bline">
+                                                <div class="favoheart">645</div>
+                                                <div class="price_bar"><span class="prod_pprice">3000.00</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                </li>
+
+                                <li>
+                                <a href="#5" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_show">展品</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod004.jpg"></div>
+                                            <div class="prod_name">新亚 .022# 网底直丝弓颊面管 第一磨牙(上下单方管)</div>
+                                            <div class="bline">
+                                                <div class="favoheart">245</div>
+                                                <div class="price_bar"><span class="ask_price"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#6" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_sale">尾品</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod002.jpg"></div>
+                                            <div class="prod_name">新亚 网底直丝弓颊面管</div>
+                                            <div class="bline">
+                                                <div class="favoheart">645</div>
+                                                <div class="price_bar"><span class="prod_pprice">188.00</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                </li>
+
+                                <li>
+                                <a href="#7" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark"></div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod001.jpg"></div>
+                                            <div class="prod_name">新亚 网底直丝弓颊面管</div>
+                                            <div class="bline">
+                                                <div class="favoheart">645</div>
+                                                <div class="price_bar"><span class="prod_pprice">188.00</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#8" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_show">展品</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod004.jpg"></div>
+                                            <div class="prod_name">新亚 .022# 网底直丝弓颊面管 第一磨牙(上下单方管)</div>
+                                            <div class="bline">
+                                                <div class="favoheart">245</div>
+                                                <div class="price_bar"><span class="ask_price"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                </li>
+
+                                <li>
+                                <a href="#9" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark"></div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod001.jpg"></div>
+                                            <div class="prod_name">新亚 网底直丝弓颊面管</div>
+                                            <div class="bline">
+                                                <div class="favoheart">645</div>
+                                                <div class="price_bar"><span class="prod_pprice">188.00</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#10" class="external">
+                                    <div class="prod_sbox">
+                                        <div class="mark mark_show">展品</div>
+                                        <div class="sbox">
+                                            <div class="img_sbox"><img src="img/prod004.jpg"></div>
+                                            <div class="prod_name">新亚 .022# 网底直丝弓颊面管 第一磨牙(上下单方管)</div>
+                                            <div class="bline">
+                                                <div class="favoheart">245</div>
+                                                <div class="price_bar"><span class="ask_price"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>

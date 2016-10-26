@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="expires" content="Wed, 23 Aug 2006 12:40:27 UTC">
+	<!-- <base href="http://admin.tbaby.cn/" target="_self"> -->
+	<title>宣仁进销存管理系统(B2C)</title>
+	<link rel="stylesheet" href="../../../public/style/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../../../public/style/thickbox.css" type="text/css" media="all">
+	<script type="text/javascript" src="../../../public/js/jquery.js"></script>
+	<script type="text/javascript" src="../../../public/js/thickbox_plus.js"></script>
+	<script type="text/javascript" src="../../../public/js/cluetip.js"></script>
+</head>
+<body bgcolor="#FAFEF0" screen_capture_injected="true" youdao="bind">
+<div class="notice">
+<ul id="box">
+	<li></li>
+</ul>
+</div>
+<div class="main">
+	<div class="main_title">
+		<span>商品与分类关联</span>
+	</div>
+	
+	<div class="blank5"></div>
+	
+	<div class="search_row">
+		<form name="search" action="javascript:search();">
+			<select name="category_id">
+				<option value="">后台分类</option>
+				<option value="6">亲子装</option>
+				<option value="57">-- 母女装</option>
+				<option value="58">-- 父子装</option>
+				<option value="55">-- 全家装</option>
+				<option value="59">-- 父女装</option>
+				<option value="56">-- 母子装</option>
+				<option value="5">儿童配饰</option>
+				<option value="53">-- 手表</option>
+				<option value="52">-- 项链</option>
+				<option value="51">-- 围脖</option>
+				<option value="50">-- 袜子</option>
+			</select>
+			<select name="brand_id">
+				<option value="">一级分类</option>
+				<option value="13">迪士尼宝宝[Disney Baby]</option>
+				<option value="14">史努比[Snoopy]</option>
+				<option value="15">史努比宝宝[Snoopy Baby]</option>
+				<option value="12">托马斯＆朋友[Thomas &amp; Friends]</option>
+				<option value="16">可乐·凡尼[COOLEFUN]</option>
+				<option value="1">迪士尼[Disney]</option>
+				<option value="2">丽婴十八坊</option>
+				<option value="3">喜羊羊与灰太狼</option>
+				<option value="4">圆梦宝</option>
+				<option value="5">婴皇圣堡</option>
+				<option value="6">婴奈儿</option>
+				<option value="7">麦肯邦尼</option>
+				<option value="8">艾尼熊</option>
+				<option value="9">欣乐儿</option>
+				<option value="10">婴悦家</option>
+				<option value="11">小猪嘟嘟</option>
+				<option value="17">Edola</option>
+				<option value="18">大黄蜂</option>
+				<option value="19">小小麦</option>
+			</select>
+			<select name="style_id">
+				<option value="">二级分类</option>
+				<option value="1">运动</option>
+				<option value="2">休闲</option>
+				<option value="3">复古</option>
+				<option value="4">可爱</option>
+				<option value="5">甜美</option>
+				<option value="6">舒适</option>
+			</select>
+			<select name="season_id">
+				<option value="">三级分类</option>
+				<option value="1">春季</option>
+				<option value="2">夏季</option>
+				<option value="3">秋季</option>
+				<option value="4">冬季</option>
+				<option value="5">春秋季</option>
+				<option value="6">秋冬季</option>
+				<option value="7">全季</option>
+				<option value="8">春夏季</option>
+			</select>
+			<select name="product_sex">
+				<option value="">性别</option>
+				<option value="1">男</option>
+				<option value="2">女</option>
+				<option value="3">男女</option>
+			</select>
+			商品品牌：<input type="text" class="ts" name="" value="" style="width:60px;">
+			商品款号：<input type="text" class="ts" name="" value="" style="width:60px;">
+			商品名称：<input type="text" class="ts" name="" value="" style="width:60px;">
+			<label>
+				<input type="checkbox" name="isLinked">
+				过滤掉已设置
+			</label>
+			<input type="submit" class="am-btn am-btn-primary" value="搜索">
+		</form>
+	</div>
+	<div class="blank5"></div>
+	<div id="contentPanel">
+
+		<div id="listDiv">
+			<table id="dataTable" class="dataTable" width="100%" cellpadding="0" cellspacing="0">
+				<tr class="list_bg_color_gary">
+					<th>
+						<a>商品名称<span class="sort_desc"></span></a>
+					</th>
+					<th>
+						<a>商品款号<span class="sort_desc"></span></a>
+					</th>
+					<th>商品品牌</th>
+					<th>商品性别</th>
+					<th>商品图片</th>
+					<th>后台分类</th>
+					<th>前台分类</th>
+				</tr>
+				<tr class="list_bg_color_gary">
+					<td>圆领短袖T恤+格子短裤</td>
+					<td>ATI21224036</td>
+					<td>ATIVO(爱及屋)</td>
+					<td> 男  </td>
+					<td align="center" class="crzTip" rel="123.jpg" title="" style=""><img src="123.jpg" width="30px" height="30px"></td>
+					<td>套装</td>
+					<td>
+						[<a id="" href="javascript:showGoodsTypeNew(358025);">设置</a>]
+						<span id="">
+						套装/礼盒 
+						</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="page">
+			<span id="totalRecords">16</span> 条记录
+			<span id="pageCurrent">1</span> /
+			<span id="totalPages">1</span> 页
+			每页 <input type="text" size="3" id="pageSize" value="20" onkeypress="return listTable.changePageSize(event)"> 条记录
+			<span id="page-link">
+				<a href="javascript:listTable.gotoPageFirst()">第一页</a>
+				<a href="javascript:listTable.gotoPagePrev()">上一页</a>
+				<a href="javascript:listTable.gotoPageNext()">下一页</a>
+				<a href="javascript:listTable.gotoPageLast()">最末页</a>
+				跳至第
+				<select id="gotoPage" onchange="listTable.gotoPage(this.value)">
+					<option value="1">1</option>
+				</select>
+				页
+			</span>
+		</div>
+		<div class="blank5"></div>
+	</div>
+</div>
+<script type="text/javascript">
+$('.crzTip').cluetip({arrows:false,showTitle:false,width:'140px',sticky:true,mouseOutClose:true,closePosition:'title',clickThrough:true,dropShadow:false,leftOffset:'-400px'});
+
+function showGoodsTypeNew(goodsId) {
+	TB_show('设置前台分类',"getGoodsType.html");
+	this.blur();
+	var TB_window = $('#TB_window');
+    var t = 80+'px';
+    var l = 80+'px';
+    TB_window.css({'left':l,'top':t,'right':l});
+	$('#TB_overlay').hide();
+	$('#TB_closeAjaxWindow span').css('right','530px');
+}
+</script>
+</body>
+</html>

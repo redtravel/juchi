@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<express size="300" width="530">
+    <siteName x="35" y="54">演示站</siteName>
+    <company x="30" y="74">上海欧思蔚奥医疗器材有限公司</company>
+    <companyPhone x="120" y="139">400-9905-920</companyPhone>
+    <companyAddress x="28" y="95" width="300" wrapLength="19" indent="18" fontWeight="bold">上海市 浦东新区 周浦镇 建韵路618号3号楼305室</companyAddress>	
+    <orderSn x="20" y="13" fontWeight="bold"/>
+    <orderCell x="50" y="26" fontWeight="bold"/>
+    <reMark x="16" y="300">请先验货后签收</reMark>
+    <rcvPerson x="275" y="55"/>    
+    <city2 x="385" y="50" fontSize="18" fontWeight="bold"/>
+
+    <rcvAddress x="273" y="97" wrapLength="20" fontWeight="bold"/> 
+ 
+    <rcvMobile x="382" y="138" fontWeight="bold"/>
+    <rcvTel x="473" y="140"/>
+    <category x="10" y="238">牙科器材</category>
+    <weight x="248" y="155"/>
+    <goodsnums x="160" y="239">1</goodsnums>
+    <sender x="33" y="269">演示站</sender>
+    <pdate x="20" y="282"/>
+    
+</express>
+<!-- 
+    <balance x="548" y="180">√</balance>
+    <scity x="206" y="45">湖州</scity>
+ * 一级元素支持：
+ *  1. append 属性:text的内容=内容+其对应的值
+ *  2. ifEqual 属性值为1时，其下的属性才显示
+ *  3. wrapLength 属性是字符换行长度
+-->

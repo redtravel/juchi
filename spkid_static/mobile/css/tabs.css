@@ -1,0 +1,32 @@
+/*tabs 定制css*/
+
+.tabbar a {
+    background:rgb(9,71,96);
+}
+
+.tabbar a.active {
+	background:rgb(8,96,80);
+}
+
+.tabbar .toolbar-inner {
+	background-color: #0D7AA5;
+}
+
+.tabbar a.tab-link {
+	position: relative;
+}
+
+.tabbar a.tab-link:after {
+	content: '+';
+	position: absolute;
+	bottom: 1px;
+	right: 2px;
+}
+
+.yyw_tabs .tabs .tab {
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 0.8em;
+	color:white;
+	display:none;
+}

@@ -1,0 +1,58 @@
+a:focus { outline:none; } 
+#index_body{ width:100%;}
+.background_top{ width:100%;}
+.index_c{ width:960px; margin:0 auto; padding-top:10px;}
+.index_t{ width:960px; float:left;}
+.index_left{ width:700px; float:left;}
+.index_left_nav{ width:690px; border-bottom:1px solid #329506; padding:0 5px 2px 5px; color:#FFF; float:left;}
+.index_left_nav span,.pro_br_pri span{ display:block;}
+.index_left_nav .s_l{ float:left; width:73px; padding-left:30px; height:23px; line-height:23px; background:url(../img/index/s_l_bg.png) no-repeat;}
+.index_left_nav .s_r{ float:right; width:110px; height:18px; line-height:18px; background:url(../img/index/s_r_bg.png) no-repeat; text-align:center; margin-top:5px;}
+
+.index_left_nav .s_m{ float:left; margin-top:5px; background:url(../img/index/sl_bottom.png) repeat-x scroll 0 -19px;}
+.index_left_nav .s_m li{ float:left; text-align:center; line-height:18px; color:#000;}
+.index_left_nav .s_m li a{ float:left; width:60px; height:18px; color:#000; cursor:pointer; display:block;}
+.index_left_nav .s_m li a:hover{ background:url(../img/index/sl_bottom.png) no-repeat scroll; color:#fff; border:none;}
+.index_left_nav .s_m li .a_hover{ background:url(../img/index/sl_bottom.png) no-repeat scroll; color:#fff; border:none;}
+
+.index_left_nav .index_button{ float:right; width:71px; height:22px; line-height:22px; background:url(../img/index/index_botton.png) no-repeat; text-align:center; margin-top:1px; font-weight:bold;}
+.index_left_nav .index_button a{color:#FFF;}
+
+.pro_block,.pro_block_sel{ width:689px; height:198px; padding:2px 5px 5px 1px; margin-top:15px; float:left;}
+.pro_block{ background:url(../img/index/pb_bg.png) no-repeat;}
+.pro_block_sel{ background:url(../img/index/pb_sel_bg.png) no-repeat;}
+
+.pro_block_pic{width:473px; height:198px; overflow:hidden; float:left; text-align:center;position:relative;}
+.pro_block_pic img{vertical-align:middle;}
+.desc_float_f, .desc_float {display: none; height: 45px; left: 0; line-height: 45px; position: absolute; text-align: center; top: 153px; width: 473px;}
+.desc_float_f {color: #000000; font-size: 14px; z-index: 5;}
+.desc_float {background-color:#fff; z-index:1;  filter: Alpha(Opacity=60);opacity:0.6;-moz-opacity:0.6;}
+
+.pro_block_r{ width:216px; height:198px; float:left; text-align:center;}
+.pro_br_logo{ width:216px; color:#4D4D4D; line-height:18px;}
+.pro_br_logo a{ display: inline-block; width:216px; padding-top:5px; color:#333;}
+.pro_br_pri a{display:inline-block; width:216px; height:40px; line-height:40px; padding-top:9px; font-family:Arial; font-size:40px; color:#BE0000; font-weight:bold;}
+/*.pro_br_zk,.pro_br_date{ float:left;width:216px; line-height:22px;}*/
+.pro_br_zk,.pro_br_date{ float:left;width:216px; line-height:22px;}
+.pro_br_zk a{ color:#969696; display:inline-block; width:100%;}
+.pri_fir{ text-decoration:line-through;}
+.pro_br_date a{ color:#4D4D4D; padding-bottom:6px; display:inline-block; width:100%;}
+/*.pro_br_time{ float:left; color:#333; width:214px; background-color:#DAF2AA; margin:1px; display:inline;}*/
+.pro_br_time{ float:left; color:#333; width:214px; background-color:#DAF2AA; margin:1px;_display:inline;}
+.index_right{ width:250px; float:right;}
+.notice{ width:250px; float:left;}
+.notice h2,.block h2{ height:29px; line-height:29px; background:url(../img/index/h2bg.png) no-repeat;}
+.notice h2{ width:235px; padding-left:15px;}
+.fdx,.t_en{font-family: "微软雅黑"; font-size:16px;}
+.fdx{ color:#FFF;}
+.t_en{ color:#338217; padding-left:70px;}
+.notice ul{ width:248px; border:1px solid #818183; background-color:#FFF; padding:15px 0; float:left;}
+.notice li{ width:210px; padding-left:13px; height:22px; line-height:22px; color:#348318; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+.notice a:link,.notice a:visited{ color:#348318;}
+.stores_pic{}
+.attention{ width:248px; float:left; height:53px; border:1px solid #94D7CE; background:url(../img/index/attention_bg.png) repeat-x; margin-top:10px;}
+.cred_h{ color:#B80606; font-weight:bold;}
+.service_list{ margin:10px 0; float:left;}
+
+
+.songjin{ background: url(../img/index/108_s.jpg) no-repeat scroll; margin-top:10px; width:250px; height:300px; float:left;}

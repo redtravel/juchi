@@ -10,7 +10,7 @@ class Settings_model extends CI_Model
 
 	public function filter($filter)
 	{
-		$sql = "SELECT * FROM `ya_system_settings` WHERE ";
+		$sql = "SELECT * FROM `ty_system_settings` WHERE ";
 
 		foreach ( $filter AS $key => $value )
 			 $data[$key] = $key . "= '". $value ."'";
@@ -28,7 +28,7 @@ class Settings_model extends CI_Model
 	**/
 	public function settings_list ($filter=array())
 	{
-		$from = " FROM ya_system_settings AS s ";
+		$from = " FROM ty_system_settings AS s ";
 		$where = " WHERE 1 ";
 		$param = array();
 		$join = '';
@@ -62,7 +62,7 @@ class Settings_model extends CI_Model
 	{
 		if( empty($data) ) return true;
 
-		$sql = "INSERT INTO `ya_system_settings` ";
+		$sql = "INSERT INTO `ty_system_settings` ";
 		foreach ( $data AS $key => $value )
 			$keys[] = $key;
 		$sql .= "(".implode(',', $keys).") ";
@@ -78,7 +78,7 @@ class Settings_model extends CI_Model
 	public function update ($data, $id)
 	{	
 		if( empty($data) ) return true;
-		$sql = "UPDATE ya_system_settings SET ";
+		$sql = "UPDATE ty_system_settings SET ";
 		foreach ( $data AS $key => $value )
 			 $data[$key] = $key . " = '". $value ."'";
 		$sql .= implode(',', $data);
@@ -89,7 +89,7 @@ class Settings_model extends CI_Model
 
 	public function delete ($id)
 	{
-		$sql = "DELETE FROM ya_system_settings WHERE id = ".$id;
+		$sql = "DELETE FROM ty_system_settings WHERE id = ".$id;
 		$this->db->query($sql);
 	}
 

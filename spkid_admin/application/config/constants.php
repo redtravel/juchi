@@ -185,18 +185,18 @@ define('FRONT_FOCUS_IMAGE_HTML_KEY','front_focus_image_html');
 define('TUAN_FRONT_FOCUS_IMAGE_HTML_KEY','tuan_front_focus_image_html');
 
 //前台url地址
-define('FRONT_URL','http://pc.redtravel.cn');
-define("IMG_URL", 'http://img.redtravel.cn');
+define('FRONT_URL','http://pc.goodteeth.cn');
+define("IMG_URL", 'http://img.goodteeth.cn');
 define("PUBLIC_DATA_IMAGES", "public/data/images/");
 
 /*
  * 后台域名
  */
-define("ERP_HOST", "https://b.redtravel.cn");
+define("ERP_HOST", "http://erp.goodteeth.cn");
 
 //上传根目录
 define('UPLOAD_PATH_BATH', CREATE_IMAGE_PATH );
-define('STATIC_HOST_CONFIG','$static_host_arr=array("http://static.redtravel.cn","http://static.redtravel.cn");');
+define('STATIC_HOST_CONFIG','$static_host_arr=array("http://static.goodteeth.cn","http://static.goodteeth.cn");');
 /**
  * 限抢图片上传目录
  */
@@ -322,14 +322,14 @@ define('SHIPPING_HTML_PATH', CREATE_HTML_PATH.'shipping/');
 //系统Log 开关
 define('BY_SYSTEM_LOG', true);
 
-define('SITE_DOMAIN', 'redtravel.cn');
+define('SITE_DOMAIN', 'goodteeth.cn');
 /**
  * SSO
  */
 define("SSO_COOKIE_USERNAME", "_username"); //第三发货
 define("SSO_COOKIE_PASSWORD", "_password");
 define("SSO_COOKIE_EXPRIE", 60 * 60 * 24 * 14);
-define("SSO_COOKIE_DOMAIN", ".redtravel.cn");
+define("SSO_COOKIE_DOMAIN", ".goodteeth.cn");
 
 /*
  * 快递100 

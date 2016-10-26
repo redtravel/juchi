@@ -32,7 +32,7 @@ class Product_model extends CI_Model
 				LEFT JOIN ".$this->db->dbprefix('product_cost')." AS cost ON cost.product_id = p.product_id
 				LEFT JOIN ".$this->db->dbprefix('product_provider')." AS prov ON prov.provider_id = p.provider_id
 				LEFT JOIN ".$this->db->dbprefix('purchase_batch')." AS batch ON batch.batch_id = cost.batch_id 
-				LEFT JOIN ya_register_code AS reg ON reg.id = p.register_code_id ";
+				LEFT JOIN ty_register_code AS reg ON reg.id = p.register_code_id ";
 		$where = " WHERE 1 AND p.genre_id = 1 ";
 		$group_by = " GROUP BY p.product_id ";
 		$param = array();
@@ -1405,11 +1405,11 @@ class Product_model extends CI_Model
 	}
         
         public function get_random(){
-            $sql = "SELECT rand_id, rand_sn FROM ya_product_sn_rand WHERE status = 0 ORDER BY rand_id ASC LIMIT 1";
+            $sql = "SELECT rand_id, rand_sn FROM ty_product_sn_rand WHERE status = 0 ORDER BY rand_id ASC LIMIT 1";
             $result = $this->db->query($sql)->row_array();
             if (empty($result))
                 return false;
-            $sql = "UPDATE ya_product_sn_rand SET status = 1 WHERE `rand_id` = ".$result['rand_id'];
+            $sql = "UPDATE ty_product_sn_rand SET status = 1 WHERE `rand_id` = ".$result['rand_id'];
             $this->db->query($sql);
             return $result['rand_sn'];
         }
@@ -1483,7 +1483,7 @@ public function update_check_gallery_rows($data){
     //锁depot_sub
     public function lock_depot_sub($filter)
     {
-        $sql = "SELECT * FROM ya_product_depot_sub WHERE product_id = ? AND color_id = ? AND size_id = ? AND depot_id = ? LIMIT 1 FOR UPDATE";
+        $sql = "SELECT * FROM ty_product_depot_sub WHERE product_id = ? AND color_id = ? AND size_id = ? AND depot_id = ? LIMIT 1 FOR UPDATE";
         $param = array($filter['product_id'],$filter['color_id'],$filter['size_id'], $filter['depot_id']);
         $query = $this->db->query($sql,$param);
         return $query->row();		
@@ -1491,13 +1491,13 @@ public function update_check_gallery_rows($data){
     
     public function update_depot_sub($update, $sub_id)
     {
-        $sql = "UPDATE ya_product_depot_sub SET gl_num = '".$update['gl_num']."' WHERE sub_id = ".$sub_id;
+        $sql = "UPDATE ty_product_depot_sub SET gl_num = '".$update['gl_num']."' WHERE sub_id = ".$sub_id;
         return $this->db->query($sql);
     }
     
     public function all_depot_sub($product_ids = array(), $depot_id)
     {
-        $sql = "SELECT * FROM ya_product_depot_sub ps "
+        $sql = "SELECT * FROM ty_product_depot_sub ps "
                 . "LEFT JOIN ty_product_color pc ON ps.color_id = pc.color_id "
                 . "LEFT JOIN ty_product_size psize ON psize.size_id = ps.size_id WHERE ps.depot_id = '".$depot_id."' AND ps.gl_num > 0 AND ps.product_id IN (".implode(",", $product_ids).")";
         $query = $this->db->query($sql);

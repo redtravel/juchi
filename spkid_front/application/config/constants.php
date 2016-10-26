@@ -39,11 +39,11 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 /**
  * 各服务器host定义
  */
-define('STATIC_HOST_CONFIG','$static_host_arr=array("http://static.redtravel.cn","http://static.redtravel.cn");');
+define('STATIC_HOST_CONFIG','$static_host_arr=array("http://static.goodteeth.cn","http://static.goodteeth.cn");');
 /*
  * 后台域名
  */
-define("ERP_HOST", "http://b.redtravel.cn");
+define("ERP_HOST", "http://erp.goodteeth.cn");
 
 define('MAX_SALE_NUM', 200);//商品最大可售数
 define('MIN_SALE_CUE_NUM', 2);//库存紧张数
@@ -220,7 +220,7 @@ define('M_INDEX_PAGE_MAX',3);//手机端首页最多加载几页
 //seo
 define('SITE_NAME', '演示站网');
 
-define('SITE_NAME_MOBILE', '演示站网 www.redtravel.cn');
+define('SITE_NAME_MOBILE', '演示站网 www.goodteeth.cn');
 define('PAGE_KEYWORDS' , SITE_NAME.'，keywords content.');
 define('PAGE_DESCRIPTION' , SITE_NAME.'description content！');
 define('PAGE_TITLE_SITE_NAME' , SITE_NAME.'_site_name_here');
@@ -228,9 +228,9 @@ define('PAGE_TITLE_SITE_NAME' , SITE_NAME.'_site_name_here');
 //预计发货时间
 define('EXPECTED_SHIPPING_DATE','当天16:00点');
 define('MEMCACHE_ADMIN_USERNAME','admin'); 	// Admin Username
-define('MEMCACHE_ADMIN_PASSWORD','admin@redtravel.cn');  	// Admin Password
+define('MEMCACHE_ADMIN_PASSWORD','admin@goodteeth.cn');  	// Admin Password
 
-define("SEND_MAIL", "servicestatic.redtravel.cn");
+define("SEND_MAIL", "servicestatic.goodteeth.cn");
 define('SESS_CHANGE_SID_PERTIME', false);
 define("SESS_KEEP_IP_MAX_NUM",5);
 
@@ -238,7 +238,7 @@ define("CACHE_HTML_INDEX", 1);
 define("CACHE_HTML_RUSH", 3);
 define("CACHE_HTML_LIST", 3);
 define("CACHE_HTML_INFO", 5);
-define('FRONT_HOST', 'http://pc.redtravel.cn');
+define('FRONT_HOST', 'http://pc.goodteeth.cn');
 define('STATIC_DIR', FRONT_HOST.'/static');
 define('STATIC_STORE_DIR', '/alidata/www/spkid/spkid_static');
 define('IMAGE_STORE_DIR',  '/alidata/www/spkid/spkid_image');

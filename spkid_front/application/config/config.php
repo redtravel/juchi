@@ -269,7 +269,7 @@ $config['sess_time_to_update']	= 1200;
 |
 */
 $config['cookie_prefix']	= "";
-$config['cookie_domain']	= ".redtravel.cn";
+$config['cookie_domain']	= ".goodteeth.cn";
 $config['cookie_path']		= "/";
 $config['cookie_secure']	= FALSE;
 
@@ -361,8 +361,8 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 //====================danger config begin=================================
-define('FRONT_HOST', 'http://pc.redtravel.cn');
-$config['IMG_HOSTS']=array('http://img.redtravel.cn');
+define('FRONT_HOST', 'http://pc.goodteeth.cn');
+$config['IMG_HOSTS']=array('http://img.goodteeth.cn');
 
 // memcache设置
 $config['memcache'] = array(

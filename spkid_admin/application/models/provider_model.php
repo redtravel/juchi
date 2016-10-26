@@ -138,11 +138,11 @@ class Provider_model extends CI_Model
 	    return 'S'.date('ym').$this->get_random();
 	}
 	private function get_random(){
-        $sql = "SELECT rand_id, rand_sn FROM ya_product_sn_rand WHERE status = 0 ORDER BY rand_id ASC LIMIT 1";
+        $sql = "SELECT rand_id, rand_sn FROM ty_product_sn_rand WHERE status = 0 ORDER BY rand_id ASC LIMIT 1";
         $result = $this->db->query($sql)->row_array();
         if (empty($result))
             return false;
-        $sql = "UPDATE ya_product_sn_rand SET status = 1 WHERE `rand_id` = ".$result['rand_id'];
+        $sql = "UPDATE ty_product_sn_rand SET status = 1 WHERE `rand_id` = ".$result['rand_id'];
         $this->db->query($sql);
         return $result['rand_sn'];
     }

@@ -2737,7 +2737,7 @@ WHERE pm.purchase_check_admin > 0 AND pm.purchase_finished_number > 0 ".$wheread
                     INNER JOIN `ty_product_size` s ON ps.size_id = s.size_id 
                     INNER JOIN ty_product_info g ON ps.product_id = g.product_id 
                     INNER JOIN `ty_product_cost` pc ON pm.batch_id = pc.batch_id AND ps.product_id = pc.product_id 
-                    INNER JOIN `ya_register_code` rc ON g.register_code_id = rc.id 
+                    INNER JOIN `ty_register_code` rc ON g.register_code_id = rc.id 
                     INNER JOIN `ty_admin_info` ai ON ai.admin_id = pm.create_admin 
                     INNER JOIN (SELECT MAX(dim.depot_in_date) AS depot_in_date, dim.order_sn FROM `ty_depot_in_main` dim WHERE dim.depot_in_type = 11 GROUP BY dim.order_sn ) a ON pm.purchase_code = a.order_sn 
                     WHERE pm.purchase_check_admin > 0 AND pm.purchase_finished_number > 0 ".$whereadd;

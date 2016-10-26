@@ -11,12 +11,12 @@ class Register_model extends CI_Model
 	public function filter($filter)
 	{
 		// if($filter['id']){
-		// 	$sql = "SELECT * FROM `ya_register_code` WHERE `id` = ".$filter['id']." LIMIT 1";
+		// 	$sql = "SELECT * FROM `ty_register_code` WHERE `id` = ".$filter['id']." LIMIT 1";
 		// }elseif($filter['register_no']){
-		// 	$sql = "SELECT * FROM `ya_register_code` WHERE `register_no` = '".$filter['register_no']."' LIMIT 1";
+		// 	$sql = "SELECT * FROM `ty_register_code` WHERE `register_no` = '".$filter['register_no']."' LIMIT 1";
 		// }
 
-		$sql = "SELECT * FROM `ya_register_code` WHERE ";
+		$sql = "SELECT * FROM `ty_register_code` WHERE ";
 
 		foreach ( $filter AS $key => $value )
 			 $data[$key] = $key . "= '". $value ."'";
@@ -30,7 +30,7 @@ class Register_model extends CI_Model
 
 	public function register_list ($filter)
 	{
-		$from = " FROM ya_register_code AS r ";
+		$from = " FROM ty_register_code AS r ";
 		$where = " WHERE 1 ";
 		$param = array();
 
@@ -85,8 +85,8 @@ class Register_model extends CI_Model
 	public function insert ($data)
 	{
 		if( empty($data) ) return true;
-		// $sql = "INSERT INTO `ya_register_code` (`register_no`, `add_admin_id`, `add_admin_time`,`medical1`,`medical2`) VALUES ('".$data['register_no']."', ".$data['add_admin_id'].", ".$data['add_admin_time'].", ".$data['medical1'].", ".$data['medical2'].")";
-		$sql = "INSERT INTO `ya_register_code` ";
+		// $sql = "INSERT INTO `ty_register_code` (`register_no`, `add_admin_id`, `add_admin_time`,`medical1`,`medical2`) VALUES ('".$data['register_no']."', ".$data['add_admin_id'].", ".$data['add_admin_time'].", ".$data['medical1'].", ".$data['medical2'].")";
+		$sql = "INSERT INTO `ty_register_code` ";
 		foreach ( $data AS $key => $value )
 			 $keys[] = $key;
 		$sql .= "(".implode(',', $keys).") ";
@@ -102,7 +102,7 @@ class Register_model extends CI_Model
 	public function update ($data, $id)
 	{	
 		if( empty($data) ) return true;
-		$sql = "UPDATE ya_register_code SET ";
+		$sql = "UPDATE ty_register_code SET ";
 		foreach ( $data AS $key => $value )
 			 $data[$key] = $key . " = '". $value ."'";
 		$sql .= implode(',', $data);
@@ -112,7 +112,7 @@ class Register_model extends CI_Model
 	
 	public function delete ($id)
 	{
-		$sql = "DELETE FROM ya_register_code WHERE id = ".$id;
+		$sql = "DELETE FROM ty_register_code WHERE id = ".$id;
 		$this->db->query($sql);
 	}
 
@@ -127,7 +127,7 @@ class Register_model extends CI_Model
 
 	public function all_register ()
 	{
-		$sql = "SELECT * FROM `ya_register_code`";
+		$sql = "SELECT * FROM `ty_register_code`";
 		$query = $this->db->query($sql);
 		return $query->result();
 	}

@@ -297,7 +297,7 @@ class Order_model extends CI_Model
                     $param[] = '%'.$filter['provider_productcode'].'%';
                 }
                 if ($filter['depot_id']) {
-                    $where .= "AND EXISTS (SELECT 1 FROM ya_product_depot_sub AS sub WHERE sub.product_id=p.product_id AND sub.depot_id ='".$filter['depot_id']."' AND sub.gl_num>0 ";
+                    $where .= "AND EXISTS (SELECT 1 FROM ty_product_depot_sub AS sub WHERE sub.product_id=p.product_id AND sub.depot_id ='".$filter['depot_id']."' AND sub.gl_num>0 ";
                 } else {
                     $where .= "AND EXISTS (SELECT 1 FROM ".$this->db->dbprefix('product_sub')." AS sub WHERE sub.product_id=p.product_id  AND (sub.gl_num>0 OR sub.consign_num>0 OR sub.consign_num=-2) ";
                 }

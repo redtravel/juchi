@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'https://b.redtravel.cn';
+$config['base_url']	= 'http://erp.goodteeth.cn';
 
 /*
 |--------------------------------------------------------------------------
@@ -266,7 +266,7 @@ $config['sess_time_to_update']	= 300;
 |
 */
 $config['cookie_prefix']	= "";
-$config['cookie_domain']	= ".redtravel.cn";
+$config['cookie_domain']	= ".goodteeth.cn";
 $config['cookie_path']		= "/";
 $config['cookie_secure']	= FALSE;
 
@@ -361,9 +361,9 @@ $config['proxy_ips'] = '';
 /**
  * 前后台域名
  */
-define('IMG_HOST', 'http://img.redtravel.cn');
-define('FRONT_HOST', 'http://pc.redtravel.cn');
-define('STATIC_HOST', 'http://static.redtravel.cn');
+define('IMG_HOST', 'http://img.goodteeth.cn');
+define('FRONT_HOST', 'http://pc.goodteeth.cn');
+define('STATIC_HOST', 'http://static.goodteeth.cn');
 
 $config['memcache'] = array(array('hostname'=>'127.0.0.1','port'=>11211,'weight'=>1));
 $config['memcache_prefix'] = '';

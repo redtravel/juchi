@@ -451,7 +451,7 @@ class Voucher_model extends CI_Model
                                 (campaign_id,release_id,user_id,voucher_sn) VALUES";
                         $voucher_rs = array();
                         $voucher_arr = array();
-                        $t_sql = "SELECT * FROM ya_voucher_log WHERE voucher_status = 0 ORDER BY voucher_id ASC LIMIT ".$i_count;
+                        $t_sql = "SELECT * FROM ty_voucher_log WHERE voucher_status = 0 ORDER BY voucher_id ASC LIMIT ".$i_count;
                         $result = $this->db->query($t_sql)->result_array();
                         foreach ($result as $row){ 
                             $voucher_rs[] = $row;
@@ -489,7 +489,7 @@ class Voucher_model extends CI_Model
                             }
                         }
 
-                        $vsql = "UPDATE ya_voucher_log SET edit_time = NOW(), voucher_status = 1 WHERE voucher_id >= $start_id AND voucher_id <= $end_id";
+                        $vsql = "UPDATE ty_voucher_log SET edit_time = NOW(), voucher_status = 1 WHERE voucher_id >= $start_id AND voucher_id <= $end_id";
                         if(!$this->db->query($vsql)) {
                             $this->db->query("ROLLBACK");
                             sys_msg("发放失败，数据库错误3！",1);

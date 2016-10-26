@@ -881,7 +881,7 @@ class Pick_model extends CI_Model
                         FROM ".$this->db_r->dbprefix('pick_sub')." AS pks 
                         LEFT JOIN ".$this->db_r->dbprefix('product_info')." AS tpi ON pks.`product_id` = tpi.`product_id` 
                         LEFT JOIN ".$this->db_r->dbprefix('product_brand')." AS pb ON tpi.`brand_id` = pb.`brand_id` 
-                        LEFT JOIN ya_register_code AS arc ON arc.`id` = tpi.`register_code_id` 
+                        LEFT JOIN ty_register_code AS arc ON arc.`id` = tpi.`register_code_id` 
                         LEFT JOIN ".$this->db_r->dbprefix('product_color')." AS pc ON pks.`color_id` = pc.`color_id` 
                         LEFT JOIN ".$this->db_r->dbprefix('product_size')." AS pz ON pks.`size_id` = pz.`size_id` 
                         LEFT JOIN ".$this->db_r->dbprefix('product_sub')." AS ps ON pks.`product_id` = ps.`product_id` AND pks.`color_id` = ps.`color_id` AND pks.`size_id` = ps.`size_id` 

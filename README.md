@@ -1,4 +1,6 @@
 # juchi
+![功能图](https://raw.githubusercontent.com/redtravel/juchi/master/document/%E8%81%9A%E9%BD%BF.png)
+
 for 
 juchi现有网址: http://54yayi.com 分为三个子模块 : 
 - 论坛: http://sq.54yayi.com

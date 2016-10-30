@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Site temporarily down for maintenance.</title>
+</head>
+
+<body>
+
+<h1>503 Service Unavailable</h1>
+
+<p>The site is temporarily down for maintenance. Please reload this page in a few minutes.</p>
+
+<p>&nbsp;</p>
+
+<p><small><font color='grey'>Administrators: view source for additional info &amp; help.</font></small></p>
+
+<!--
+
+Notes for site administrators:
+
+GETTING OUT OF MAINTENANCE MODE:
+
+If you're ever stuck in maintenance mode and want to get OUT of it,
+rename the /conf/maintenance.html or /conf/imaintenance.html or /conf/umaintenance.html file 
+to /conf/_maintenance.html (with an _ at the beggining).
+
+WARNING: If you just had an upgrade fail in the middle of it, it is a very bad idea to just
+get out of maintenance mode without immdiately restoring a DB backup first. Continuing without
+a clean DB may make it impossible to ever ugrade your b2evolution in the future.
+
+GETTING INTO MAINTENANCE MODE:
+
+In order to put b2evolution into maintenance mode, rename this file to maintenance.html 
+(with NO _ at the beginning).
+
+In order to put b2evolution into maintenance mode but still allow access to the install script,
+rename this file to imaintenance.html (with an i at the beginning).
+
+Edit the contents of this file to change the message that is displayed during maintenance.
+
+-->
+
+</body>
+
+</html>

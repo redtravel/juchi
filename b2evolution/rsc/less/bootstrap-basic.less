@@ -1,0 +1,552 @@
+/*
+ * Obviously, this file no longer contains only basic styles.
+ * It now also contains all sorts of base styles like the toolbar and debug for backward comaptibility with older skins... :/
+ */
+
+@import "inc/toolbar.inc.less";
+@import "inc/tooltip.inc.less";
+@import "inc/user_colors.inc.less";
+@import "inc/debug.inc.less";
+
+// MILOS> Prevents from scrolling right on all Bootstrap skins
+html, body {
+	width: auto !important;
+	overflow-x: hidden !important;
+}
+
+// CSS to show containers, widgets and includes:
+@import "_dev-blocks.module.less";
+// Styles for results table on AJAX data loading:
+@import "_results_ajax_loading.module.less";
+
+.border-radius (@radius: 4px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.transition( @transition ) {
+	-webkit-transition: @transition;
+			 -o-transition: @transition;
+					transition: @transition;
+}
+
+// Mark the nofollow links with pink background color on mouseover event
+// fp> I actually want to keep this on all skins. It's an attempt to dissuade spammers to spam by showing visually them that the links are nofollow.
+a[rel~=nofollow]:not([class~=btn]):hover {
+	background: #f8e0e0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+}
+
+// Image styles:
+img.loadimg {
+	display: inline-block;
+	min-width: 64px;
+	min-height: 64px;
+	background: url(../img/ajax-loader/fff.gif) no-repeat center;
+}
+figure {
+	margin: 1em 0;
+}
+.evo_image_block {
+	// WARNING: this will screw out backoffice layout (fulltext edit screen)
+	text-align: center;
+}
+// Used to limit max width of the replied comments,
+// because width of the replied comment can be very small
+// (Each level of the replied comments has additional 20px margin left)
+.replied_comment .evo_image_block img {
+	max-width: 100%;
+	height: auto;
+}
+// Description text under image
+.evo_image_legend {
+	font-size: 84%;
+	color: #aaa;
+	padding: 9px 6px 6px 6px;
+	text-align: center;
+}
+// Rounded images
+.image_rounded img {
+	.border-radius( 50% );
+}
+// Avatar images
+img.avatar_before_login {
+	margin-right: 2px;
+	vertical-align: top;
+}
+img.avatar_before_login_middle {
+	margin-right: 2px;
+	vertical-align: middle;
+}
+img.avatar_above_login {
+	display: block;
+	margin: 0 auto;
+}
+// ---------------- //
+
+// Limit width of the table cells to text length without new line breaks
+.shrinkwrap {
+	width: 1%;
+	white-space: nowrap;
+	text-align: center;
+}
+.shrinkwrap.left {
+	text-align: left;
+}
+
+.block {
+	margin: 1ex;
+	white-space: nowrap;
+}
+
+a.selected {
+	font-weight: bold;
+}
+
+// Round corners of avatar images:
+.avatar_rounded {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 2px;
+	display: inline-block;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center;
+	box-sizing: content-box;
+}
+.avatar_rounded:hover {
+	text-decoration: none;
+}
+.avatar_rounded img {
+	-moz-border-radius-topleft: 2px; -moz-border-radius-topright: 2px;
+	-webkit-border-radius: 2px 2px 0 0;
+	-khtml-border-radius-topleft: 2px; -khtml-border-radius-topright: 2px;
+	border-radius: 2px 2px 0 0;
+	margin-bottom: 2px;
+}
+// ---------------- //
+
+// Layout for editing the avatars on "Profile picture" pages:
+div.avatartag {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0.5em 0.5em 0;
+	a {
+		outline: none;
+	}
+	&.main {
+		display: block;
+		float: none !important;
+		&>a {
+			float: left;
+		}
+		a:first-child {
+			margin-right: 25px;
+		}
+		.avatar_actions {
+			margin-right: 25px;
+		}
+	}
+}
+.avatar_actions {
+	float: left;
+	line-height: 26px;
+}
+.avatar_main_frame {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 2px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	display: table;
+	vertical-align: middle;
+}
+.avatar_main_frame img {
+	-moz-border-radius-topleft: 2px; -moz-border-radius-bottomleft: 2px;
+	-webkit-border-radius: 2px 0 0 2px;
+	-khtml-border-radius-topleft: 2px; -khtml-border-radius-bottomleft: 2px;
+	border-radius: 2px 0 0 2px;
+}
+.avatar_main_frame > a:first-child {
+	float: left;
+	margin-right: 5px;
+}
+.duplicated_avatars {
+	text-align: center;
+	max-width: 160px;
+}
+.avatar_main_frame .duplicated_avatars {
+	max-width: 320px;
+}
+.duplicated_avatars a.user img {
+	vertical-align: text-top;
+}
+div.avatartag.main > img:first-child {
+	float: left;
+	margin-right: 25px;
+}
+@media only screen and (max-width: 600px) {
+	div.avatar_main_frame {
+		> a:first-child {
+			margin-right: 0;
+			float: none;
+		}
+		.avatar_actions {
+			display: block;
+		}
+	}
+}
+@media only screen and (max-width: 480px) {
+	.avatar_main_frame {
+		> a:first-child {
+			margin-right: 0;
+		}
+		img {
+			max-width: 245px;
+			max-height: 245px;
+		}
+	}
+}
+// Avatars on the edit forms
+form {
+	div.avatartag {
+		float: left;
+		margin: 0 0.5em 0.5em 0;
+		a {
+			outline: none;
+		}
+	}
+}
+// ---------------- //
+
+// Window to crop profile image:
+#fieldset_wrapper_image_crop .crop_button {
+	display: none;
+}
+#image_crop_block {
+	display: table;
+}
+#image_crop_block > div {
+	display: table-cell;
+	vertical-align: top;
+}
+#target_cropped_image {
+	float: left;
+	margin: 0 10px 10px 0;
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+#target_cropped_image img {
+	height: auto;
+	width: auto;
+}
+.preview_cropped_images {
+	width: 128px;
+	text-align: center;
+	&.only_small_preview {
+		width: auto;
+	}
+}
+.preview_cropped_image {
+	display: inline-block;
+	overflow: hidden;
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+.preview_cropped_image.circle {
+	border-radius: 50%;
+}
+.crop_button {
+	text-align: center;
+}
+.crop_button.top {
+	display: none;
+}
+
+// Fix to hide radio button
+.jcrop-keymgr {
+	visibility: hidden;
+}
+// ---------------- //
+
+// Form styles:
+.evo_label_inline {
+	margin-left: 2ex;
+}
+// Used for action icons
+div.right_icons,
+div.fieldset_icons {
+	text-align: right;
+}
+span.right_icons,
+span.fieldset_icons {
+	float:right;
+}
+// Red star appears before label of the required labels
+span.label_field_required {
+	color: #f00;
+	font-weight: bold;
+	margin-right: 4px;
+}
+// Used to hide red star by JavaScript
+.not_required span.label_field_required {
+	display: none;
+}
+// Error fields
+span.field_error {
+	color: #f00;
+	span.notes &, span.help-inline & {
+		// Hide errors inside of notes because they are displayed in popover/tooltip:
+		display: none;
+	}
+}
+input.field_error,
+select.field_error,
+textarea.field_error {
+	background:#fbf2ee;
+	border: 1px solid #d99;
+}
+span.checkbox_error {
+	background: #fbf2ee;
+	border: 1px solid #d99;
+	display: inline-block;
+	padding: 0 5px;
+	margin-left: -26px;
+	input[type=checkbox] {
+		position: relative;
+		margin: 0;
+	}
+}
+
+span.checkbox_surround {
+	background: #fbf2ee;
+	border: 1px solid #F825F1;
+}
+span.checkbox_surround input.checkbox {
+	background: #fbf2ee;
+}
+span.checkbox_surround_init {
+	padding : 1px;
+}
+// Large inputs and textareas (with full width)
+input.large,
+textarea.form_textarea_input {
+	width: 97%;
+	margin: 0;
+	display: block;
+}
+// Space between radio option lable and note text
+label.radiooption {
+	margin-right: 1em;
+}
+// ---------------- //
+
+// Messages:
+div.log_container, div.action_messages {
+	ul, ol, li {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+	}
+}
+// ---------------- //
+
+// include errors, wrong params, deleted blog, missed skin tempalte file, etc...
+div.skin_error {
+	border: 2px dotted #d99;
+	background:#fbf2ee;
+	color:#e00;
+	padding: 1em;
+	margin: 1em;
+}
+
+// Widget styles:
+// Grid table (Used on media index widget)
+table.widget_grid {
+	margin: 8px auto 1px;
+	border-collapse: separate;
+	border-spacing: 3px;
+}
+table.widget_grid td {
+	padding: 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	vertical-align: top;
+}
+table.widget_grid img {
+	padding: 1px;
+}
+table.widget_grid .note {
+	text-align: center;
+	padding: 2px;
+	border-top: 1px solid #ddd;
+	line-height: normal;
+	display:block;
+}
+#sidebar table.widget_grid .note {
+	margin: 0;
+}
+// Flow blocks (Used on media index widget)
+.widget_core_user_avatars .panel-body {
+	padding-bottom: 0px !important;
+	.widget_grid {
+		margin-bottom: 23px !important;
+	}
+}
+.widget_flow_blocks, table.widget_grid {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-content: center;
+	-webkit-align-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	div {
+		margin: 3px;
+	}
+}
+.widget_flow_blocks > div img {
+	border-radius: 3px;
+}
+
+// ---------------- //
+
+
+// Table style fixes:
+.table_scroll table.table tr td {
+	vertical-align: middle;
+	&.firstcol.shrinkwrap {
+		padding: 1px 5px;
+		a img, span img {
+			.border-radius;
+		}
+	}
+}
+// Align top all cells of messages table:
+.evo_private_messages_list .table_scroll table.table tr td {
+	vertical-align: top;
+}
+// ---------------- //
+
+
+// User links widget
+.ufld_icon_links {
+	text-align: center;
+	// milos> Already styled with 'text-align: right;' in Starter style.less (line 7)
+	// fp> I put this back because you say 'already'. It's not 'already'. starter/style.less comes after this basic style. If we want to remove this we have to know that this style is overriden by ALL boostrap skins.
+	a {
+		text-align: center;
+	}
+}
+// --------------- //
+
+
+// Hides pager elements with active_distance > 1 on small devices
+
+// this will hide pseudo prev_list and pseudo next_list links by default
+li[class^="listnav_distance_"], li[class*=" listnav_distance_"] {
+	display: none;
+}
+
+// Do the following the screen is greater than or equal to 320px
+@media only screen and (min-width: 320px) {
+	// hide all active distance first
+	li[class^="active_distance_"], li[class*=" active_distance_"] {
+		display: none;
+	}
+
+	// hide previous and next
+	li.listnav_prev, li.listnav_next {
+		display: none;
+	}
+
+	// hide previous list and next list
+	li.listnav_prev_list, li.listnav_next_list {
+		display: none;
+	}
+
+	// round the corners of the first and last page
+	li.listnav_first > a {
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+	}
+
+	li.listnav_last > a {
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+	}
+
+	// show only active distance 1
+	li[class="active_distance_1"] {
+		display: inline;
+	}
+
+	// show pseudo previous/next list 1
+	li[class="listnav_distance_1"] {
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	// show active distance 2
+	li[class="active_distance_2"] {
+		display: inline;
+	}
+
+	// hide pseudo previous/next 1...
+	li[class="listnav_distance_1"] {
+		display: none;
+	}
+
+	// ...and show next pseudo previous/next list 2
+	li[class="listnav_distance_2"] {
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	// show all active distance
+	li[class^="active_distance_"], li[class*=" active_distance_"] {
+		display: inline;
+	}
+
+	// hide all pseudo previous/next lists
+	li[class^="listnav_distance_"], li[class*=" listnav_distance_"] {
+		display: none;
+	}
+
+	// show previous/next list pages
+	li.listnav_prev_list, li.listnav_next_list {
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	// show previous/next pages
+	li.listnav_prev, li.listnav_next {
+		display: inline;
+	}
+
+	// remove round corners on the first and last page
+	li.listnav_first > a {
+		border-radius: 0;
+	}
+
+	li.listnav_last > a {
+		border-radius: 0;
+	}
+}

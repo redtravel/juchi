@@ -1,1 +1,0 @@
-This is the temp directory used for the tests.
